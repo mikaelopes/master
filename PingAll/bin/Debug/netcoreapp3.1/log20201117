@@ -171,3 +171,59 @@ RPL Result
  5 nodes were found
  Level 00 ---> 0001 Nodes 
  Level 01 ---> 0004 Nodes 
+17/11/2020 13:02:08 
+RPL Result
+ 5 nodes were found
+ Level 00 ---> 0001 Nodes 
+ Level 01 ---> 0004 Nodes 
+17/11/2020 13:02:10 
+Ping Result 
+Node IP:  0002
+Node Level:  1
+Packets sent: 10 - Packets Received: 10 - Packet Loss: 0.0%
+RTTmin: 84ms - RTTmax: 339ms - RTTavg: 113ms
+Ping Total time: 1276ms - Node is reachable.
+17/11/2020 13:02:14 
+RPL Result
+ 5 nodes were found
+ Level 00 ---> 0001 Nodes 
+ Level 01 ---> 0004 Nodes 
+0001 Nodes pinged out of 0005 nodes
+17/11/2020 13:02:17 
+Ping Result 
+Node IP:  0002
+Node Level:  1
+Packets sent: 10 - Packets Received: 10 - Packet Loss: 0.0%
+RTTmin: 83ms - RTTmax: 955ms - RTTavg: 204ms
+Ping Total time: 2190ms - Node is reachable.
+0001 Nodes pinged out of 0005 nodes
+17/11/2020 13:02:19 
+Ping Result 
+Node IP:  0005
+Node Level:  1
+Packets sent: 10 - Packets Received: 10 - Packet Loss: 0.0%
+RTTmin: 82ms - RTTmax: 340ms - RTTavg: 146ms
+Ping Total time: 1601ms - Node is reachable.
+0002 Nodes pinged out of 0005 nodes
+17/11/2020 13:02:21 
+Ping Result 
+Node IP:  0004
+Node Level:  1
+Packets sent: 10 - Packets Received: 10 - Packet Loss: 0.0%
+RTTmin: 83ms - RTTmax: 342ms - RTTavg: 137ms
+Ping Total time: 1513ms - Node is reachable.
+0003 Nodes pinged out of 0005 nodes
+17/11/2020 13:02:23 
+Ping Result 
+Node IP:  0003
+Node Level:  1
+Packets sent: 10 - Packets Received: 10 - Packet Loss: 0.0%
+RTTmin: 86ms - RTTmax: 338ms - RTTavg: 147ms
+Ping Total time: 1615ms - Node is reachable.
+0004 Nodes pinged out of 0005 nodes
+0004 nodes were pinged 
+Total sent packets: 40
+Total received packets: 40
+Total package loss: 0,00%
+Total nodes not reachable: 0
+Total nodes with unstability: 0

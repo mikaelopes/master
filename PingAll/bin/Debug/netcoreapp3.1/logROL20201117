@@ -4229,3 +4229,233 @@ FF:FE:20:49:07,0033,25326,0]
 [VC+RPD: 601,3000,00:00:20:FF:FE:20:53:02,024F,25326,0]
 [VC+RPD END]
 
+17/11/2020 13:02:08
+rpl
+--- Network status ---
+- MAC addresses:
+-- 00:01:00:ff:fe:06:95:09
+- Unicast IPv6 addresses:
+-- 2001:aa01:3c:2::200
+-- fe80::201:ff:fe06:9509
+- Multicast IPv6 addresses:
+-- ff02::1:ff00:200
+-- ff02::1a
+-- ff03::fc
+-- ff03::2
+-- ff02::2
+-- ff03::1
+-- ff02::1
+-- ff02::1:ff06:9509
+- IPv6 prefix:
+-- fe80::/64
+- Default route:
+-- None
+[ 5 in total Routing link]
+[0200 -> DODAG root  lv:   0   lt: 4294967295 s]
+[0002 -> 0200 lv:   1   lt: 9312 s]
+[0005 -> 0200 lv:   1   lt: 9360 s]
+[0004 -> 0200 lv:   1   lt: 9395 s]
+[0003 -> 0200 lv:   1   lt: 9842 s]
+----------------------
+
+17/11/2020 13:02:08
+ping6 0002 c 10 s 32 t 3000
+PING 2001:aa01:3c:2::2 size = 32 count = 10 timeout = 3000(ms) interval = 0(ms)
+
+32 bytes from 2001:aa01:3c:2::2: icmp_req=1 time=87 ms rssi=-42 lqi=246 p_rssi=-41 p_lqi=242 p_etx=128 p_rsl=132 p=069509 ppm/min/max=39/37/42 nf=-121 p_num=1 
+
+32 bytes from 2001:aa01:3c:2::2: icmp_req=2 time=86 ms rssi=-42 lqi=243 p_rssi=-41 p_lqi=244 p_etx=128 p_rsl=132 p=069509 ppm/min/max=39/37/42 nf=-121 p_num=1 
+
+32 bytes from 2001:aa01:3c:2::2: icmp_req=3 time=84 ms rssi=-42 lqi=243 p_rssi=-41 p_lqi=245 p_etx=128 p_rsl=132 p=069509 ppm/min/max=39/37/42 nf=-121 p_num=1 
+
+32 bytes from 2001:aa01:3c:2::2: icmp_req=4 time=87 ms rssi=-42 lqi=242 p_rssi=-41 p_lqi=246 p_etx=128 p_rsl=131 p=069509 ppm/min/max=39/37/42 nf=-121 p_num=1 
+
+32 bytes from 2001:aa01:3c:2::2: icmp_req=5 time=86 ms rssi=-42 lqi=242 p_rssi=-42 p_lqi=245 p_etx=128 p_rsl=131 p=069509 ppm/min/max=39/37/42 nf=-121 p_num=1 
+
+
+32 bytes from 2001:aa01:3c:2::2: icmp_req=6 time=339 ms rssi=-42 lqi=242 p_rssi=-41 p_lqi=244 p_etx=128 p_rsl=131 p=069509 ppm/m
+in/max=39/37/42 nf=-121 p_num=1 
+32 bytes from 2001:aa01:3c:2::2: icmp_req=7 time=92 ms rssi=-42 lqi=243 p_rssi=-41 p_lqi=243 p_etx=128 p_rsl=131 p=069509 ppm/min/max=39/37/42 nf=-121 p_num=1 
+
+32 bytes from 2001:aa01:3c:2::2: icmp_req=8 time=102 ms rssi=-42 lqi=245 p_rssi=-41 p_lqi=245 p_etx=128 
+p_rsl=132 p=069509 ppm/min/max=39/37/42 nf=-121 p_num=1 
+32 bytes from 2001:aa01:3c:2::2: icmp_req=9 time=88 ms rssi=-42 lqi=246 p_rssi=-41 p_lqi=244 p_etx=128 p_rsl=132 p=069509 ppm/min/max=39/37/42 nf=-121 p_num=1 
+
+32 bytes from 2001:aa01:3c:2::2: icmp_req=10 time=88 ms rssi=-42 lqi=245 p_rssi=-41 p_lqi=245 p_etx=128 p_rsl=132 p=069509 ppm/min/max=39/37/42 nf=-122 p_num=1 
+
+--- 2001:aa01:3c:2::2 ping statistics ---
+10 packets transmitted, 10 received, 0.0% packet loss, time 1276ms
+rtt min/avg/max = 84/113/339 ms
+[VC+PING:2001:aa01:3c:2::2,10,10,0]
++PING6:10,10,0.0%,1276,84,113,339
+
+17/11/2020 13:02:14
+rpl
+--- Network status ---
+- MAC addresses:
+-- 00:01:00:ff:fe:06:95:09
+- Unicast IPv6 addresses:
+-- 2001:aa01:3c:2::200
+-- fe80::201:ff:fe06:9509
+- Multicast IPv6 add
+resses:
+-- ff02::1:ff00:200
+-- ff02::1a
+-- ff03::fc
+-- ff03::2
+-- ff02::2
+-- ff03::1
+-- ff02::1
+-- ff02::1:ff06:9509
+- IPv6 prefix:
+-- fe80::/64
+- Default route:
+-- None
+[ 5 in total Routing link]
+[0200 -> DODAG root  lv:   0   lt: 4294967295 s]
+[0002 -> 0200 lv:   1   lt: 9306 s]
+[0005 -> 0200 lv:   1   lt: 9354 s]
+[0004 -> 0200 lv:   1   lt: 9389 s]
+[0003 -> 0200 lv:   1   lt: 9836 s]
+----------------------
+
+17/11/2020 13:02:14
+ping6 0002 c 10 s 32 t 3000
+PING 2001:aa01:3c:2::2 size = 32 count = 10 timeout = 3000(ms) interval = 0(ms)
+
+32 bytes from 2001:aa01:3c:2::2: icmp_req=1 time=85 ms rssi=-42 lqi=246 p_rssi=-41 p_lqi=243 p_etx=128 p_rsl=132 p=069509 ppm/min/max=39/37/42 nf=-121 p_num=1 
+
+
+
+
+
+
+
+
+32 bytes from 2001:aa01:3c:2::2: icmp_req=2 time=955 ms rssi=-42 lqi=247 p_rssi=-40 p_lqi=244 p_etx=128 p_rsl=132 p=069509 ppm/min/max=39/37/42 nf=-122 p_num=1 
+
+32 bytes from 2001:aa01:3c:2::2: icmp_req=3 time=93 ms rssi=-42 lqi=247 p_rssi=-41 p_lqi=241 p_etx=128 p_rsl=132 p=069509 ppm/min/max=39/37/42 nf=-121 p_num=1 
+
+32 bytes from 2001:aa01:3c:2::2: icmp_req=4 time=89 ms rssi=-42 lqi=247 p_rssi=-41 p_lqi=241 p_etx=128 p_rsl=131 p=069509 ppm/min/max=39/37/42 nf=-121 p_num=1 
+
+32 bytes from 2001:aa01:3c:2::2: icmp_req=5 time=91 ms rssi=-42 lqi=248 p_rssi=-41 p_lqi=240 p_etx=128 p_rsl=131 p=069509 ppm/min/max=39/37/42 nf=-121 p_num=1 
+
+32 bytes from 2001:aa01:3c:2::2: icmp_req=6 time=87 ms rssi=-42 lqi=246 p_rssi=-41 p_lqi=240 p_etx=128 p_rsl=131 p=069509 ppm/min/max=39/37/42 nf=-122 p_num=1 
+
+
+
+32 bytes from 2001:aa01:3c:2::2: icmp_req=7 time=386 ms rssi=-42 lqi=247 p_rssi=-41 p_lqi=240 p_etx=128 p_rsl=131 p=069509 ppm/min/max=39/37/42 nf=-122 p_num=1 
+
+32 bytes from 2001:aa01:3c:2::2: icmp_req=8 time=88 ms rssi=-42 lqi=248 p_rssi=-41 p_lqi=242 p_etx=128 p_rsl=131 p=069509 ppm/min/max=39/37/42 nf=-122 p_num=1 
+
+32 bytes from 2001:aa01:3c:2::2: icmp_req=9 time=83 ms rssi=-42 lqi=249 p_rssi=-41 p_lqi=243 p_etx=128 p_rsl=131 p=069509 ppm/min/max=39/37/42 nf=-121 p_num=1 
+
+32 bytes from 2001:aa01:3c:2::2: icmp_req=10 time=92 ms rssi=-42 lqi=249 p_rssi=-41 p_lqi=243 p_etx=128 p_rsl=131 p=069509 ppm/min/max=39/37/42 nf=-121 p_num=1 
+
+--- 2001:aa01:3c:2::2 ping statistics ---
+10 packets transmitted, 10 received, 0.0% packet loss, time 2190ms
+rtt min/avg/max = 83/204/955 ms
+[VC+PING:2001:aa01:3c:2::2,10,10,0]
++PING6:10,10,0.0%,2190,83,204,955
+
+17/11/2020 13:02:17
+ping6 0005 c 10 s 32 t 3000
+PING 2001:aa01:3c:2::5 size = 32 count = 10 timeout = 3000(ms) interval = 0(ms)
+
+
+
+32 bytes from 2001:aa01:3c:2::5: icmp_req=1 time=340 ms rssi=-47 lqi=241 p_r
+ssi=-44 p_lqi=244 p_etx=128 p_rsl=129 p=069509 ppm/min/max=37/34/40 nf=-121 p_num=1 
+
+32 bytes from 2001:aa01:3c:2::5: icmp_req=2 time=136 ms rssi=-46 lqi=243 p_rssi=-43 p_lqi=245 p_etx=128 p_rsl=129 p=069509 ppm/min/max=38/34/41 nf=-121 p_num=1 
+32 bytes from 2001:aa01:3c:2::5: icmp_req=3 time=82 ms rssi=-46 lqi=241 p_rssi=-43 p_lqi=245 p_etx=128 p_rsl=130 p=069509 ppm/min/max=38
+/34/41 nf=-121 p_num=1 
+32 bytes from 2001:aa01:3c:2::5: icmp_req=4 time=83 ms rssi=-46 lqi=243 p_rssi=-43 p_lqi=246 p_etx=128 p_rsl=130 p=069509 ppm/min/max=38/34/41 nf=-121 p_num=1 
+
+32 bytes from 2001:aa01:3c:2::5: icmp_req=5 time=87 ms rssi=-46 lqi=240 p_rssi=-42 p_lqi=245 p_etx=128 p_rsl=130 p=069509 ppm/min/max=38/34/41 nf=-121 p_num=1 
+
+32 bytes from 2001:aa01:3c:2::5: icmp_req=6 time=137 ms rssi=-45 lqi=240 p_rssi=-42 p_lqi=244 p_etx=128 p_rsl=130 p=069509 ppm/min/max=38/34/41 nf=-121 p_num=1 
+
+
+
+32 bytes from 2001:aa01:3c:2::5: icmp_req=7 time=338 ms rssi=-45 lqi=239 p_rssi=-42 p_lqi=242 p_etx=128 p_rsl=130 p=069509 ppm/min/max=38/34/41 nf=-121 p_num=1 
+
+32 bytes from 2001:aa01:3c:2::5: icmp_req=8 time=87 ms rssi=-45 lqi=239 p_rssi=-42 p_lqi=242 p_etx=128 p_rsl=130 p=069509 ppm/min/max=38/34/41 nf=-121 p_num=1 
+
+32 bytes from 2001:aa01:3c:2::5: icmp_req=9 time=88 ms rssi=-45 lqi=238 p_rssi=-42 p_lqi=244 p_etx=128 p_rsl=131 p=069509 ppm/min/max=38/34/41 nf=-121 p_num=1 
+
+32 bytes from 2001:aa01:3c:2::5: icmp_req=10 time=88 ms rssi=-45 lqi=240 p_rssi=-42 p_lqi=245 p_etx=128 p_rsl=131 p=069509 ppm/min/max=38/34/41 nf=-121 p_num=1 
+
+--- 2001:aa01:3c:2::5 ping statistics ---
+10 packets transmitted, 10 received, 0.0% packet loss, time 1601ms
+rtt min/avg/max = 82/146/340 ms
+[VC+PING:2001:aa01:3c:2::5,10,10,0]
++PING6:10,10,0.0%,1601,82,146,340
+
+17/11/2020 13:02:19
+ping6 0004 c 10 s 32 t 3000
+PING 2001:aa01:3c:2::4 size = 32 count = 10 timeout = 3000(ms) interval = 0(ms)
+
+
+
+32 bytes from 2001:aa01:3c:2::4: icmp_req=1 time=340 ms rssi=-56 lqi=237 p_rssi=-51 p_lqi=237 p_etx=128 p_rsl=120 p=069509 ppm/min/max=35/33/40 nf=-121 p_num=1 
+
+32 bytes from 2001:aa01:3c:2::4: icmp_req=2 time=92 ms rssi=-57 lqi=236 p_rssi=-52 p_lqi=239 p_etx=128 p_rsl=119 p=069509 ppm/min/max=35/33/40 nf=-121 p_num=1 
+
+32 bytes from 2001:aa01:3c:2::4: icmp_req=3 time=94 ms rssi=-57 lqi=235 p_rssi=-53 p_lqi=238 p_etx=128 p_rsl=118 p=069509 ppm/min/max=35/33/40 nf=-121 p_num=1 
+
+32 bytes from 2001:aa01:3c:2::4: icmp_req=4 time=84 ms rssi=-57 lqi=236 p_rssi=-53 p_lqi=237 p_etx=128 p_rsl=118 p=069509 ppm/min/max=35/33/40 nf=-121 p_num=1 
+
+32 bytes from 2001:aa01:3c:2::4: icmp_req=5 time=86 ms rssi=-57 lqi=237 p_rssi=-54 p_lqi=239 p_etx=128 p_rsl=117 p=069509 ppm/min/max=35/33/40 nf=-121 p_num=1 
+
+32 bytes from 2001:aa01:3c:2::4: icmp_req=6 time=85 ms rssi=-57 lqi=238 p_rssi=-55 p_lqi=239 p_etx=128 p_rsl=116 p=069509 ppm/min/max=35/33/40 nf=-121 p_num=1 
+32 bytes from 2001:aa01:3c:2::4: icmp_req=7 time=88 ms rssi=-57 lqi=237 p_rssi=-55 p_lqi=239 p_etx=128 p_rsl=116 p=069509 ppm/min/max=35/33/40 nf=-121 p_num=1 
+
+
+
+32 bytes from 2001:aa01:3c:2::4: icmp_req=8 time=342 ms rssi=-58 lqi=237 p_rssi=-55 p_lqi=240 p_etx=128 p_rsl=116 p=069509 ppm/min/max=35/33/40 nf=-121 p_num=1 
+
+32 bytes from 2001:aa01:3c:2::4: icmp_req=9 time=84 ms rssi=-58 lqi=239 p_rssi=-55 p_lqi=242 p_etx=128 p_rsl=116 p=069509 ppm/min/max=35/33/40 nf=-121 p_num=1 
+
+32 bytes from 2001:aa01:3c:2::4: icmp_req=10 time=83 ms rssi=-58 lqi=237 p_rssi=-55 p_lqi=241 p_etx=128 p_rsl=116 p=069509 ppm/min/max=35/33/40 nf=-121 p_num=1 
+
+--- 2001:aa01:3c:2::4 ping statistics ---
+10 packets transmitted, 10 received, 0.0% packet loss, time 1513ms
+rtt min/avg/max = 83/137/342 ms
+[VC+PING:2001:aa01:3c:2::4,10,10,0]
++PING6:10,10,0.0%,1513,83,137,342
+
+17/11/2020 13:02:21
+ping6 0003 c 10 s 32 t 3000
+PING 2001:aa01:3c:2::3 size = 32 count = 10 timeout = 3000(ms) interval = 0(ms)
+
+32 bytes from 2001:aa01:3c:2::3: icmp_req=1 time=93 ms rssi=-39 lqi=244 p_rssi=-37 p_lqi=239 p_etx=128 p_rsl=136 p=069509 ppm/min/max=39/35/41 nf=-122 p_num=1 
+
+
+
+32 bytes from 2001:aa01:3c:2::3: icmp_req=2 time=336 ms rssi=-39 lqi=245 p_rssi=-36 p_lqi=238 p_etx=128 p_rsl=136 p=069509 ppm/min/max=39/35/41 nf=-122 p_num=1 
+
+32 bytes from 2001:aa01:3c:2::3: icmp_req=3 time=88 ms rssi=-39 lqi=243 p_rssi=-37 p_lqi=237 p_etx=128 p_rsl=136 p=069509 ppm/min/max=39/35/41 nf=-122 p_num=1 
+
+32 bytes from 2001:aa01:3c:2::3: icmp_req=4 time=89 ms rssi=-39 lqi=244 p_rssi=-37 p_lqi=235 p_etx=128 p_rsl=136 p=069509 ppm/min/max=39/35/41 nf=-121 p_num=1 
+
+32 bytes from 2001:aa01:3c:2::3: icmp_req=5 time=86 ms rssi=-39 lqi=243 p_rssi=-37 p_lqi=235 p_etx=128 p_rsl=136 p=069509 ppm/min/max=39/35/41 nf=-121 p_num=1 
+
+32 bytes from 2001:aa01:3c:2::3: icmp_req=6 time=87 ms rssi=-39 lqi=241 p_rssi=-37 p_lqi=234 p_etx=128 p_rsl=136 p=069509 ppm/min/max=39/35/41 nf=-121 p_num=1 
+32 bytes from 2001:aa01:3c:2::3: icmp_req=7 time=87 ms rssi=-39 lqi=241 p_rssi=-37 p_lqi=237 p_etx=128 p_rsl=135 p=069509 ppm/min/max=39/35/41 nf=-121 p_num=1 
+
+
+32 bytes from 2001:aa01:3c:2::3: icmp_req=8 time=189 ms rssi=-39 lqi=239 p_rssi=-37 p_lqi=236 p_etx=128 p_rsl=135 p=069509 ppm/min/max=39/35/41 nf=-120 p_num=1 
+
+
+
+32 bytes from 2001:aa01:3c:2::3: icmp_req=9 time=338 ms rssi=-39 lqi=239 p_rssi=-37 p_lqi=238 p_etx=128 p_rsl=135 p=069509 ppm/min/max=39/35/41 nf=-120 p_num=1 
+
+32 bytes from 2001:aa01:3c:2::3: icmp_req=10 time=87 ms rssi=-39 lqi=238 p_rssi=-37 p_lqi=238 p_etx=128 p_rsl=135 p=069509 ppm/min/max=39/35/41 nf=-121 p_num=1 
+
+--- 2001:aa01:3c:2::3 ping statistics ---
+10 packets transmitted, 10 received, 0.0% packet loss, time 1615ms
+rtt min/avg/max = 86/147/338 ms
+[VC+PING:2001:aa01:3c:2::3,10,10,0]
++PING6:10,10,0.0%,1615,86,147,338
+

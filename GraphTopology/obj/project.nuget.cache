@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "9iCScpSguRoN1iFeA2554ZAydB1tOR4o4NbpX0/TvNSElTYYygaqUUrFWeMklU/ZiNb+DIrhq3wedmV8yptlvQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mikae\\Documents\\sw\\GraphTopology\\GraphTopology.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mikae\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\mikae\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\mikae\\.nuget\\packages\\quickgraph.all\\3.6.61119.8\\quickgraph.all.3.6.61119.8.nupkg.sha512",
+    "C:\\Users\\mikae\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
+    "C:\\Users\\mikae\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Users\\mikae\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
+    "C:\\Users\\mikae\\.nuget\\packages\\system.reflection.emit.lightweight\\4.3.0\\system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
+    "C:\\Users\\mikae\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\mikae\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\mikae\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\mikae\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

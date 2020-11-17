@@ -1,0 +1,13 @@
+C:\Users\mikae\Documents\sw\Fix_Route\ReadFix_Route\bin\Debug\netcoreapp3.1\ReadFix_Route.exe
+C:\Users\mikae\Documents\sw\Fix_Route\ReadFix_Route\bin\Debug\netcoreapp3.1\ReadFix_Route.deps.json
+C:\Users\mikae\Documents\sw\Fix_Route\ReadFix_Route\bin\Debug\netcoreapp3.1\ReadFix_Route.runtimeconfig.json
+C:\Users\mikae\Documents\sw\Fix_Route\ReadFix_Route\bin\Debug\netcoreapp3.1\ReadFix_Route.runtimeconfig.dev.json
+C:\Users\mikae\Documents\sw\Fix_Route\ReadFix_Route\bin\Debug\netcoreapp3.1\ReadFix_Route.dll
+C:\Users\mikae\Documents\sw\Fix_Route\ReadFix_Route\bin\Debug\netcoreapp3.1\ReadFix_Route.pdb
+C:\Users\mikae\Documents\sw\Fix_Route\ReadFix_Route\obj\Debug\netcoreapp3.1\ReadFix_Route.csprojAssemblyReference.cache
+C:\Users\mikae\Documents\sw\Fix_Route\ReadFix_Route\obj\Debug\netcoreapp3.1\ReadFix_Route.AssemblyInfoInputs.cache
+C:\Users\mikae\Documents\sw\Fix_Route\ReadFix_Route\obj\Debug\netcoreapp3.1\ReadFix_Route.AssemblyInfo.cs
+C:\Users\mikae\Documents\sw\Fix_Route\ReadFix_Route\obj\Debug\netcoreapp3.1\ReadFix_Route.csproj.CoreCompileInputs.cache
+C:\Users\mikae\Documents\sw\Fix_Route\ReadFix_Route\obj\Debug\netcoreapp3.1\ReadFix_Route.dll
+C:\Users\mikae\Documents\sw\Fix_Route\ReadFix_Route\obj\Debug\netcoreapp3.1\ReadFix_Route.pdb
+C:\Users\mikae\Documents\sw\Fix_Route\ReadFix_Route\obj\Debug\netcoreapp3.1\ReadFix_Route.genruntimeconfig.cache

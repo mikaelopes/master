@@ -108,7 +108,7 @@ namespace PingAll
                         PathUnweighted.GetTopology(node);
                         if (r[0] - 1 > i)
                         {
-                            WaitRep(r);
+                            WaitRep(r, i);
                         }
                     }
                     TaskFinished();
@@ -125,7 +125,7 @@ namespace PingAll
                         UpdateNodeMac(dhcp6s, node);
                         if (r[0] - 1 > i)
                         {
-                            WaitRep(r);
+                            WaitRep(r, i);
                         }
                     }
                     TaskFinished();
@@ -146,7 +146,7 @@ namespace PingAll
                         PingNode(node, _ip, _count, _size, _timeout);
                         if (r[0] - 1 > i)
                         {
-                            WaitRep(r);
+                            WaitRep(r, i);
                         }
                     }
                     TaskFinished();
@@ -165,7 +165,7 @@ namespace PingAll
                         PingAllNodes(node, _count, _size, _timeout);
                         if (r[0] - 1 > i)
                         {
-                            WaitRep(r);
+                            WaitRep(r, i);
                         }
                     }
                     TaskFinished();
@@ -186,7 +186,7 @@ namespace PingAll
                         PingAllNodes(node, _count, _size, _timeout, _lvl);
                         if (r[0] - 1 > i)
                         {
-                            WaitRep(r);
+                            WaitRep(r, i);
                         }
                     }
                     TaskFinished();
@@ -205,7 +205,7 @@ namespace PingAll
                         PingAllLevels(node, _count, _size, _timeout, true);
                         if (r[0] - 1 > i)
                         {
-                            WaitRep(r);
+                            WaitRep(r, i);
                         }
                     }
                     TaskFinished();
@@ -224,7 +224,7 @@ namespace PingAll
                         PingAllLevels(node, _count, _size, _timeout, false);
                         if (r[0] - 1 > i)
                         {
-                            WaitRep(r);
+                            WaitRep(r, i);
                         }
                     }
                     TaskFinished();
@@ -241,7 +241,7 @@ namespace PingAll
                         NodePerLevel(node, _lvl, false);
                         if (r[0] - 1 > i)
                         {
-                            WaitRep(r);
+                            WaitRep(r, i);
                         }
                     }
                     TaskFinished();
@@ -260,7 +260,7 @@ namespace PingAll
                         NodePerLevel(node, _lvl, true);
                         if (r[0] - 1 > i)
                         {
-                            WaitRep(r);
+                            WaitRep(r, i);
                         }
                     }
                     TaskFinished();
@@ -340,7 +340,7 @@ namespace PingAll
             return reps;
         }
 
-        public static void WaitRep(int[] r)
+        public static void WaitRep(int[] r, int i)
         {
             if(r[1] >= 1)
             {
@@ -370,7 +370,7 @@ namespace PingAll
             }
             if(r[1] == 0)
             {
-                MenuLine(" Executing task " + r[0] + " time(s)");
+                MenuLine(" Executing task " + (i+2) + " of " + r[0] + " time(s)");
                 MenuLine(" With no pause between iterations");
                 MenuLine(" Please wait execution");
             }

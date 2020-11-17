@@ -28,9 +28,7 @@ C:\Users\mikae\Documents\sw\PingAll\bin\Debug\netcoreapp3.1\PingAll.runtimeconfi
 C:\Users\mikae\Documents\sw\PingAll\bin\Debug\netcoreapp3.1\PingAll.runtimeconfig.dev.json
 C:\Users\mikae\Documents\sw\PingAll\bin\Debug\netcoreapp3.1\PingAll.dll
 C:\Users\mikae\Documents\sw\PingAll\bin\Debug\netcoreapp3.1\PingAll.pdb
-C:\Users\mikae\Documents\sw\PingAll\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\mikae\Documents\sw\PingAll\bin\Debug\netcoreapp3.1\System.IO.Ports.dll
-C:\Users\mikae\Documents\sw\PingAll\bin\Debug\netcoreapp3.1\PrimS.Telnet.NetStandard.dll
 C:\Users\mikae\Documents\sw\PingAll\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\System.IO.Ports.Native.so
 C:\Users\mikae\Documents\sw\PingAll\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\System.IO.Ports.Native.so
 C:\Users\mikae\Documents\sw\PingAll\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\System.IO.Ports.Native.so
@@ -45,9 +43,4 @@ C:\Users\mikae\Documents\sw\PingAll\obj\Debug\netcoreapp3.1\PingAll.csproj.CopyC
 C:\Users\mikae\Documents\sw\PingAll\obj\Debug\netcoreapp3.1\PingAll.dll
 C:\Users\mikae\Documents\sw\PingAll\obj\Debug\netcoreapp3.1\PingAll.pdb
 C:\Users\mikae\Documents\sw\PingAll\obj\Debug\netcoreapp3.1\PingAll.genruntimeconfig.cache
-C:\Users\mikae\Documents\sw\PingAll\bin\Debug\netcoreapp3.1\QuickGraph.All.dll
-C:\Users\mikae\Documents\sw\PingAll\bin\Debug\netcoreapp3.1\QuickGraph.Core.dll
-C:\Users\mikae\Documents\sw\PingAll\bin\Debug\netcoreapp3.1\QuickGraph.Data.dll
-C:\Users\mikae\Documents\sw\PingAll\bin\Debug\netcoreapp3.1\QuickGraph.Graphviz.dll
-C:\Users\mikae\Documents\sw\PingAll\bin\Debug\netcoreapp3.1\QuickGraph.Serialization.dll
 C:\Users\mikae\Documents\sw\PingAll\obj\Debug\netcoreapp3.1\PingAll.csproj.CoreCompileInputs.cache

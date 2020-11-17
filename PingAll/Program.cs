@@ -654,13 +654,16 @@ namespace PingAll
         public static void GetNodeInfo(List<NodeInfo> node, NetworkInfo mesh)
         {
             int s = 0;
-            Regex regex = new Regex(@"\[[(?:[A-Fa-f0-9]{4} -> (?:[A-Fa-f0-9]{4}) (lv:   )(?:[0-9]*)   (lt: )(?:[0-9].*)\]");
+            Regex regex = new Regex(@"\[[(?:[A-Fa-f0-9]{4} -> (?:[A-Fa-f0-9]{4}) (lv:.*)(?:[0-9]).*(lt: )(?:[0-9].*)\]");
             Regex regexNodeIP = new Regex(@"\[(?:[A-Fa-f0-9]){4} -");
             Regex regexNodeParent = new Regex(@" (?:[A-Fa-f0-9]){4} l");
-            Regex regexNodeLvl = new Regex(@"   [(?:[A-Fa-f0-9].  ");
+            Regex regexNodeLvl = new Regex(@" [(?:[A-Fa-f0-9]. ");
             Regex regexLifetime = new Regex(@"(lt: )[(?:[A-Fa-f0-9].* s\]");
+            //Regex totalNodes = new Regex(@"\[ (?:[0-9])* (in total Routing link).*\]");
             string endingRule = "---------------------";
-            MatchCollection matches = regex.Matches(SerialComm("rpl", endingRule, 40000));
+            string rplFromComm = SerialComm("rpl", endingRule, 40000);
+            MatchCollection matches = regex.Matches(rplFromComm);
+            //MatchCollection matchTotal = totalNodes.Matches(rplFromComm);
 
             if (node.Count == 0)
             {
@@ -720,6 +723,7 @@ namespace PingAll
                 }
 
             }
+
             int a = node.Count();
             mesh.TotalNodes = a;
             double t = (double)s / (double)a;
@@ -727,6 +731,7 @@ namespace PingAll
             {
                 Stamp();
                 PrLog("RPL Result", false);
+                PrLog(" " + (a.ToString() + " total nodes"), false);
                 PrLog((t.ToString("P") + " of all nodes has changed parent"), false);
                 PrLog((s.ToString() + " nodes have changed parent"), false);
             }

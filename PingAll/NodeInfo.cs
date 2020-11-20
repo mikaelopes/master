@@ -177,21 +177,6 @@ namespace PingAll
 
     }
 
-    public class NetworkInfo
-    {
-        public int ChangedNodes { get; set; }
-        public string Netname { get; set; }
-        public int TotalNodes { get; set; }
-        public int TotalHops { get; set; }
-        public string AP { get; set; }
-        public string TotalDHCPS { get; set; }
-
-        public NetworkInfo(string _ap)
-        {
-            this.AP = _ap;
-        }
-    }
-
     public class DHCP6
     {
         public string MacAdress { get; set; }

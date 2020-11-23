@@ -149,12 +149,13 @@ namespace PingAll
                     int _count = SetCount();
                     int _size = SetSize();
                     int _timeout = SetTimeout();
+                    int _lenght = SetLength();
                     r = SetRepetition();
                     for (int i = 0; i < r[0]; i++)
                     {
                         GetNodeInfo(node);
                         PathUnweighted.GetTopology(node);
-                        PingNode(node, _ip, _count, _size, _timeout);
+                        PingNode(node, _ip, _count, _size, _timeout, _lenght);
                         if (r[0] - 1 > i)
                         {
                             WaitRep(r, i);
@@ -167,12 +168,13 @@ namespace PingAll
                     _count = SetCount();
                     _size = SetSize();
                     _timeout = SetTimeout();
+                    _lenght = SetLength();
                     r = SetRepetition();
                     for (int i = 0; i < r[0]; i++)
                     {
                         GetNodeInfo(node);
                         PathUnweighted.GetTopology(node);
-                        PingAllNodes(node, _count, _size, _timeout);
+                        PingAllNodes(node, _count, _size, _timeout, _lenght);
                         if (r[0] - 1 > i)
                         {
                             WaitRep(r, i);
@@ -182,22 +184,23 @@ namespace PingAll
                     return true;
                 //Ping all nodes in a level
                 case "5":
-                    int _lvl;
-                    _lvl = SetLevel();
-                    _count = SetCount();
-                    _size = SetSize();
-                    _timeout = SetTimeout();
-                    r = SetRepetition();
-                    for (int i = 0; i < r[0]; i++)
-                    {
-                        GetNodeInfo(node);
-                        PathUnweighted.GetTopology(node);
-                        PingAllNodes(node, _count, _size, _timeout, _lvl);
-                        if (r[0] - 1 > i)
+                        int _lvl;
+                        _lvl = SetLevel();
+                        _count = SetCount();
+                        _size = SetSize();
+                        _timeout = SetTimeout();
+                        _lenght = SetLength();
+                        r = SetRepetition();
+                        for (int i = 0; i < r[0]; i++)
                         {
-                            WaitRep(r, i);
+                            GetNodeInfo(node);
+                            PathUnweighted.GetTopology(node);
+                            PingAllNodes(node, _count, _size, _timeout, _lenght, _lvl);
+                            if (r[0] - 1 > i)
+                            {
+                                WaitRep(r, i);
+                            }
                         }
-                    }
                     TaskFinished();
                     return true;
                 //Ping all nodes all levels - Crescent
@@ -205,12 +208,13 @@ namespace PingAll
                     _count = SetCount();
                     _size = SetSize();
                     _timeout = SetTimeout();
-                    r = SetRepetition();
+                        _lenght = SetLength();
+                        r = SetRepetition();
                     for (int i = 0; i < r[0]; i++)
                     {
                         GetNodeInfo(node);
                         PathUnweighted.GetTopology(node);
-                        PingAllLevels(node, _count, _size, _timeout, true);
+                        PingAllLevels(node, _count, _size, _timeout, _lenght, true);
                         if (r[0] - 1 > i)
                         {
                             WaitRep(r, i);
@@ -223,12 +227,13 @@ namespace PingAll
                     _count = SetCount();
                     _size = SetSize();
                     _timeout = SetTimeout();
-                    r = SetRepetition();
+                        _lenght = SetLength();
+                        r = SetRepetition();
                     for (int i = 0; i < r[0]; i++)
                     {
                         GetNodeInfo(node);
                         PathUnweighted.GetTopology(node);
-                        PingAllLevels(node, _count, _size, _timeout, false);
+                        PingAllLevels(node, _count, _size, _timeout, _lenght, false);
                         if (r[0] - 1 > i)
                         {
                             WaitRep(r, i);
@@ -276,7 +281,7 @@ namespace PingAll
                     return true;
                 default:
                     return true;
-            }
+                }
             }
             catch (Exception e)
             {
@@ -314,7 +319,7 @@ namespace PingAll
         {
             try 
             { 
-            string repetition = " Please type how many repetitions or press enter for default 1 repetition:";
+            string repetition = " Please type how many repetitions or press enter for default 1 repetition or press 0 to return to main menu:";
             MenuLine(repetition);
             int r;
             int w = 0;
@@ -507,6 +512,33 @@ namespace PingAll
                 _count = 0;
             }
             return _count;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                int rets = new int();
+                return rets;
+            }
+        }
+
+        public static int SetLength()
+        {
+            try
+            {
+                int _length;
+
+                MenuLine(" Please type the ping length (must be greater than timeout) or press enter for default:");
+                KeyLine();
+                string s = Console.ReadLine();
+                if (s != "")
+                {
+                    _length = Convert.ToInt32(s);
+                }
+                else
+                {
+                    _length = 0;
+                }
+                return _length;
             }
             catch (Exception e)
             {
@@ -1061,7 +1093,7 @@ namespace PingAll
             return buffer;
         }
 
-        public static void PingNode(List<NodeInfo> node, string ip, int count, int payload, int timeout)
+        public static void PingNode(List<NodeInfo> node, string ip, int count, int payload, int timeout, int _lenght)
         {
             try
             {
@@ -1082,14 +1114,24 @@ namespace PingAll
                     {
                         timeout = 3000;
                     }
+                    if (_lenght == 0)
+                    {
+                        _lenght = timeout;
+                    }else if(_lenght < timeout)
+                    {
+                        _lenght = timeout;
+                    }
+
                     if (ip != "0200")
                     {
                         string Ping6IP = "ping6 " + ip;
                         string Ping6Count =" c " + count;
                         string Ping6Size =" s " + payload;
                         string Ping6Timeout = " t " + timeout;
-                        int lenght = (Ping6IP + Ping6Count + Ping6Size + Ping6Timeout).Length;
-                        string com = SerialComm(Ping6IP+Ping6Count+Ping6Size+Ping6Timeout, endingRule, count * (timeout) + 10000, lenght, regex);
+                        string Ping6Lenght = " l " + _lenght;
+                        string msg = Ping6IP + Ping6Count + Ping6Size + Ping6Timeout + Ping6Lenght;
+                        int lenght = msg.Length;
+                        string com = SerialComm(msg, endingRule, count * (timeout) + 10000, lenght, regex);
                         MatchCollection matches = regex.Matches(com);
                         foreach (Match match in matches)
                         {
@@ -1198,14 +1240,14 @@ namespace PingAll
             }
         }
 
-        public static void PingAllNodes(List<NodeInfo> node, int count, int payload, int timeout)
+        public static void PingAllNodes(List<NodeInfo> node, int count, int payload, int timeout, int _lenght)
         {
             List<NodeInfo> WasPing = new List<NodeInfo>();
             try
             {
                 foreach (NodeInfo nodes in node)
                 {
-                    PingNode(node, nodes.IP, count, payload, timeout);
+                    PingNode(node, nodes.IP, count, payload, timeout, _lenght);
                     WasPing = node.FindAll(x => x.PTx != null);
                     PrLog(WasPing.Count().ToString("D4") + " Nodes pinged out of " + node.Count().ToString("D4") + " nodes", true);
                     if (WasPing.Count() % 100 == 0)
@@ -1275,7 +1317,7 @@ namespace PingAll
 
         }
 
-        public static void PingAllNodes(List<NodeInfo> node, int count, int payload, int timeout, int _lvl)
+        public static void PingAllNodes(List<NodeInfo> node, int count, int payload, int timeout, int _lenght, int _lvl)
         {
             List <NodeInfo> WasPing = new List<NodeInfo>();
             try
@@ -1286,7 +1328,7 @@ namespace PingAll
                 PrLog("Total nodes: " + infos.Count().ToString("D4"), true);
                 foreach (NodeInfo nodes in infos)
                 {
-                    PingNode(node, nodes.IP, count, payload, timeout);
+                    PingNode(node, nodes.IP, count, payload, timeout, _lenght);
                     WasPing = infos.FindAll(x => x.PTx != null);
                     PrLog(WasPing.Count().ToString("D4") + " Nodes pinged out of " + infos.Count().ToString("D4") + " total nodes in network", true);
                     if (WasPing.Count() % 100 == 0)
@@ -1321,7 +1363,7 @@ namespace PingAll
 
         }
 
-        public static void PingAllLevels(List<NodeInfo> node, int count, int payload, int timeout, bool order)
+        public static void PingAllLevels(List<NodeInfo> node, int count, int payload, int timeout, int _lenght, bool order)
         {
             try
             {
@@ -1338,7 +1380,7 @@ namespace PingAll
                     lvls = lvls.OrderBy(x => x).Distinct().ToList();
                     foreach(int level in lvls)
                     {
-                        PingAllNodes(node, count, payload, timeout, level);
+                        PingAllNodes(node, count, payload, timeout, _lenght, level);
                     }
                 }
                 else

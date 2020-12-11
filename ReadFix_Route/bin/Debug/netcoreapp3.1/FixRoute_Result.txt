@@ -1,1762 +1,1739 @@
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Total fix route messages at 00h: 204
-Node 315 changed parent 2 times
-Node 3a3 changed parent 23 times
-Node 418 changed parent 5 times
-Node 3bc changed parent 10 times
-Node 3df changed parent 3 times
-Node 400 changed parent 8 times
-Node 419 changed parent 7 times
-Node 3af changed parent 5 times
-Node 41a changed parent 5 times
-Node 39b changed parent 4 times
-Node 3a0 changed parent 4 times
-Node 3ed changed parent 2 times
-Node 406 changed parent 19 times
-Node 3ff changed parent 6 times
-Node 3b4 changed parent 5 times
-Node 3c6 changed parent 9 times
-Node 3e9 changed parent 5 times
-Node 417 changed parent 5 times
-Node 3a2 changed parent 7 times
-Node 78d changed parent 1 times
-Node b89 changed parent 2 times
-Node 3ac changed parent 21 times
-Node 41d changed parent 16 times
-Node 415 changed parent 16 times
-Node 405 changed parent 9 times
-Node 404 changed parent 5 times
-Node 3a5 changed parent 2 times
-Node 396 changed parent 2 times
-Node 421 changed parent 6 times
-Node 3fd changed parent 20 times
-Node b0a changed parent 4 times
-Node 3ee changed parent 24 times
-Node 675 changed parent 2 times
-Node 3c1 changed parent 13 times
-Node a97 changed parent 2 times
-Node 3fc changed parent 12 times
-Node 509 changed parent 1 times
-Node 484 changed parent 14 times
-Node 3e4 changed parent 7 times
-Node 425 changed parent 10 times
-Node ab3 changed parent 2 times
-Node 3b9 changed parent 9 times
-Node 8a changed parent 1 times
-Node 3a4 changed parent 15 times
-Node 449 changed parent 11 times
-Node acb changed parent 8 times
-Node 40d changed parent 19 times
-Node 422 changed parent 2 times
-Node 411 changed parent 18 times
-Node 402 changed parent 7 times
-Node 41f changed parent 2 times
-Node 407 changed parent 6 times
-Node 3b2 changed parent 8 times
-Node 441 changed parent 3 times
-Node 475 changed parent 10 times
-Node 431 changed parent 2 times
-Node 434 changed parent 10 times
-Node 429 changed parent 11 times
-Node 439 changed parent 5 times
-Node 448 changed parent 16 times
-Node aa5 changed parent 4 times
-Node 37c changed parent 2 times
-Node ab6 changed parent 7 times
-Node a26 changed parent 3 times
-Node 3d1 changed parent 14 times
-Node 408 changed parent 7 times
-Node 3b0 changed parent 4 times
-Node 7d2 changed parent 1 times
-Node 2a0 changed parent 1 times
-Node 939 changed parent 2 times
-Node 17c changed parent 1 times
-Node 31b changed parent 1 times
-Node 9c3 changed parent 7 times
-Node 2b3 changed parent 2 times
-Node b3b changed parent 1 times
-Node a47 changed parent 2 times
-Node 7e2 changed parent 1 times
-Node a67 changed parent 5 times
-Node 8a8 changed parent 2 times
-Node 3b3 changed parent 7 times
-Node 88f changed parent 1 times
-Node 73a changed parent 1 times
-Node 18d changed parent 1 times
-Node 899 changed parent 1 times
-Node 799 changed parent 1 times
-Node 920 changed parent 3 times
-Node 4e3 changed parent 2 times
-Node 54a changed parent 10 times
-Node a6b changed parent 2 times
-Node 2ac changed parent 5 times
-Node 9db changed parent 3 times
-Node 9fc changed parent 2 times
-Node 35 changed parent 14 times
-Node 3f4 changed parent 4 times
-Node 438 changed parent 8 times
-Node a9d changed parent 2 times
-Node a8f changed parent 6 times
-Node 739 changed parent 1 times
-Node 4f1 changed parent 1 times
-Node 447 changed parent 7 times
-Node 64f changed parent 2 times
-Node 7e0 changed parent 1 times
-Node a8c changed parent 4 times
-Node 446 changed parent 5 times
-Node 456 changed parent 3 times
-Node a96 changed parent 8 times
-Node 42b changed parent 3 times
-Node a78 changed parent 2 times
-Node 204 changed parent 11 times
-Node 3f0 changed parent 4 times
-Node a5d changed parent 1 times
-Node a98 changed parent 5 times
-Node 299 changed parent 6 times
-Node bb7 changed parent 1 times
-Node a84 changed parent 3 times
-Node 70a changed parent 2 times
-Node 95c changed parent 12 times
-Node 498 changed parent 1 times
-Node 95f changed parent 1 times
-Node 515 changed parent 2 times
-Node 63d changed parent 1 times
-Node 3ec changed parent 1 times
-Node 40b changed parent 1 times
-Node 43c changed parent 11 times
-Node 427 changed parent 1 times
-Node 40a changed parent 2 times
-Node 423 changed parent 6 times
-Node 46b changed parent 3 times
-Node a92 changed parent 1 times
-Node 7b8 changed parent 8 times
-Node 234 changed parent 1 times
-Node a07 changed parent 1 times
-Node aba changed parent 1 times
-Node a9e changed parent 1 times
-Node 959 changed parent 1 times
-Node af8 changed parent 1 times
-Node 2c1 changed parent 1 times
-Node af3 changed parent 1 times
-Node 338 changed parent 1 times
-Node a02 changed parent 1 times
-Node acf changed parent 3 times
-Node b12 changed parent 2 times
-Node ae3 changed parent 2 times
-Node b11 changed parent 5 times
-Node ad1 changed parent 5 times
-Node af7 changed parent 10 times
-Node b34 changed parent 5 times
-Node ae1 changed parent 2 times
-Node b16 changed parent 1 times
-Node ae9 changed parent 3 times
-Node b40 changed parent 3 times
-Node b13 changed parent 2 times
-Node b1d changed parent 3 times
-Node b20 changed parent 2 times
-Node ab8 changed parent 4 times
-Node ad3 changed parent 1 times
-Node b46 changed parent 1 times
-Node ac3 changed parent 2 times
-Node aeb changed parent 3 times
-Node b07 changed parent 3 times
-Node b70 changed parent 1 times
-Node ae7 changed parent 1 times
-Node b4b changed parent 1 times
-Node b58 changed parent 3 times
-Node b60 changed parent 1 times
-Node b1f changed parent 2 times
-Node abb changed parent 5 times
-Node b21 changed parent 2 times
-Node 46f changed parent 6 times
-Node a6a changed parent 4 times
-Node aee changed parent 3 times
-Node b41 changed parent 3 times
-Node ac1 changed parent 3 times
-Node b1e changed parent 6 times
-Node ac2 changed parent 4 times
-Node 761 changed parent 1 times
-Node ab9 changed parent 3 times
-Node 116 changed parent 2 times
-Node a9b changed parent 2 times
-Node b0d changed parent 1 times
-Node ad0 changed parent 3 times
-Node ace changed parent 2 times
-Node ad9 changed parent 2 times
-Node 8ff changed parent 1 times
-Node aa2 changed parent 4 times
-Node a93 changed parent 2 times
-Node 7fb changed parent 2 times
-Node aea changed parent 1 times
-Node b0e changed parent 1 times
-Node b45 changed parent 2 times
-Node ad5 changed parent 2 times
-Node 256 changed parent 6 times
-Node 800 changed parent 1 times
-Node 5b2 changed parent 1 times
-Node 91c changed parent 1 times
-Node b9d changed parent 1 times
-Node b54 changed parent 1 times
-Node 8ee changed parent 1 times
-Node b51 changed parent 1 times
-Node 6ae changed parent 1 times
-Node 661 changed parent 1 times
-Node a73 changed parent 1 times
-Node 9d1 changed parent 1 times
-Node 255 changed parent 1 times
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Total fix route messages at 01h: 30
-Node 45e changed parent 2 times
-Node abe changed parent 3 times
-Node 5c8 changed parent 2 times
-Node 4f3 changed parent 2 times
-Node 348 changed parent 2 times
-Node b75 changed parent 1 times
-Node b78 changed parent 1 times
-Node 612 changed parent 1 times
-Node aa1 changed parent 1 times
-Node b10 changed parent 1 times
-Node b25 changed parent 2 times
-Node d0 changed parent 1 times
-Node b4a changed parent 2 times
-Node b43 changed parent 2 times
-Node 16d changed parent 1 times
-Node 2bc changed parent 1 times
-Node 6a6 changed parent 10 times
-Node 62d changed parent 1 times
-Node 112 changed parent 1 times
-Node b57 changed parent 1 times
-Node b6e changed parent 1 times
-Node ad2 changed parent 1 times
-Node b48 changed parent 1 times
-Node b23 changed parent 1 times
-Node b64 changed parent 1 times
-Node 443 changed parent 5 times
-Node a4b changed parent 1 times
-Node a8d changed parent 1 times
-Node 145 changed parent 1 times
-Node a77 changed parent 1 times
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Total fix route messages at 02h: 8
-Node 88a changed parent 1 times
-Node 6ab changed parent 1 times
-Node 154 changed parent 1 times
-Node 25e changed parent 7 times
-Node b74 changed parent 1 times
-Node 890 changed parent 1 times
-Node 53c changed parent 2 times
-Node 9de changed parent 3 times
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Total fix route messages at 03h: 11
-Node ac9 changed parent 1 times
-Node a6f changed parent 6 times
-Node aa7 changed parent 1 times
-Node b08 changed parent 3 times
-Node a85 changed parent 1 times
-Node abc changed parent 1 times
-Node 5ef changed parent 1 times
-Node 5aa changed parent 1 times
-Node e4 changed parent 2 times
-Node 11b changed parent 1 times
-Node 654 changed parent 1 times
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Total fix route messages at 04h: 4
-Node 603 changed parent 1 times
-Node 13a changed parent 5 times
-Node 3d9 changed parent 1 times
-Node 697 changed parent 1 times
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Total fix route messages at 05h: 3
-Node 38d changed parent 1 times
-Node 9b9 changed parent 1 times
-Node a2 changed parent 1 times
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Total fix route messages at 06h: 20
-Node 522 changed parent 1 times
-Node b1c changed parent 1 times
-Node 76d changed parent 2 times
-Node 3cb changed parent 1 times
-Node 1d3 changed parent 1 times
-Node 595 changed parent 1 times
-Node 48e changed parent 1 times
-Node 952 changed parent 1 times
-Node 11a changed parent 1 times
-Node 4f8 changed parent 1 times
-Node 130 changed parent 1 times
-Node 632 changed parent 1 times
-Node 81a changed parent 1 times
-Node 76f changed parent 1 times
-Node 537 changed parent 1 times
-Node 6f3 changed parent 2 times
-Node 608 changed parent 1 times
-Node 4bc changed parent 2 times
-Node 84a changed parent 1 times
-Node c2 changed parent 1 times
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Total fix route messages at 07h: 1
-Node 2c6 changed parent 1 times
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Total fix route messages at 08h: 2
-Node 128 changed parent 1 times
-Node 731 changed parent 1 times
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Total fix route messages at 09h: 0
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Total fix route messages at 10h: 0
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Total fix route messages at 11h: 0
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Total fix route messages at 12h: 0
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Total fix route messages at 13h: 0
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Total fix route messages at 14h: 0
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Total fix route messages at 15h: 0
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Total fix route messages at 16h: 0
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Total fix route messages at 17h: 0
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Total fix route messages at 18h: 0
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Total fix route messages at 19h: 0
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Total fix route messages at 20h: 162
-Node 50 changed parent 2 times
-Node c8 changed parent 1 times
-Node 214 changed parent 1 times
-Node 240 changed parent 7 times
-Node 850 changed parent 1 times
-Node 8fa changed parent 15 times
-Node a0c changed parent 2 times
-Node 1b5 changed parent 35 times
-Node 4ab changed parent 1 times
-Node 261 changed parent 9 times
-Node 604 changed parent 1 times
-Node 1b1 changed parent 3 times
-Node 5db changed parent 2 times
-Node 2e5 changed parent 2 times
-Node 166 changed parent 7 times
-Node 668 changed parent 3 times
-Node 9b8 changed parent 1 times
-Node 8d4 changed parent 6 times
-Node 289 changed parent 4 times
-Node 2df changed parent 4 times
-Node 2fa changed parent 16 times
-Node 285 changed parent 11 times
-Node 623 changed parent 12 times
-Node 809 changed parent 1 times
-Node 43 changed parent 2 times
-Node 78f changed parent 10 times
-Node 369 changed parent 4 times
-Node 296 changed parent 3 times
-Node 673 changed parent 1 times
-Node 370 changed parent 15 times
-Node 83c changed parent 7 times
-Node 9aa changed parent 1 times
-Node 922 changed parent 3 times
-Node 91d changed parent 4 times
-Node 1b3 changed parent 11 times
-Node d4 changed parent 2 times
-Node 77e changed parent 11 times
-Node 316 changed parent 2 times
-Node 987 changed parent 1 times
-Node 9da changed parent 2 times
-Node 273 changed parent 2 times
-Node b8f changed parent 2 times
-Node 812 changed parent 2 times
-Node 93c changed parent 7 times
-Node 290 changed parent 1 times
-Node 2bf changed parent 6 times
-Node 239 changed parent 2 times
-Node 18b changed parent 7 times
-Node 7d5 changed parent 12 times
-Node 260 changed parent 2 times
-Node a7c changed parent 1 times
-Node b86 changed parent 3 times
-Node 5e9 changed parent 2 times
-Node 118 changed parent 11 times
-Node 5b7 changed parent 3 times
-Node 2b2 changed parent 1 times
-Node 671 changed parent 1 times
-Node 7ae changed parent 1 times
-Node 9fb changed parent 7 times
-Node 3e6 changed parent 11 times
-Node d2 changed parent 1 times
-Node 20c changed parent 1 times
-Node 67d changed parent 2 times
-Node 3a8 changed parent 2 times
-Node 2d7 changed parent 1 times
-Node 9a6 changed parent 5 times
-Node 393 changed parent 21 times
-Node 6d3 changed parent 11 times
-Node 695 changed parent 5 times
-Node 210 changed parent 3 times
-Node 37f changed parent 20 times
-Node 2fc changed parent 1 times
-Node 17a changed parent 31 times
-Node 1e3 changed parent 11 times
-Node aef changed parent 7 times
-Node 54b changed parent 6 times
-Node 904 changed parent 1 times
-Node bd changed parent 1 times
-Node 61f changed parent 1 times
-Node 8cb changed parent 13 times
-Node 741 changed parent 5 times
-Node 1c4 changed parent 2 times
-Node 31a changed parent 3 times
-Node 9f5 changed parent 3 times
-Node 144 changed parent 48 times
-Node 925 changed parent 2 times
-Node 844 changed parent 1 times
-Node 8e changed parent 4 times
-Node 748 changed parent 25 times
-Node 7e3 changed parent 7 times
-Node 7a8 changed parent 1 times
-Node 37 changed parent 2 times
-Node 180 changed parent 28 times
-Node 8df changed parent 1 times
-Node a54 changed parent 1 times
-Node 27f changed parent 2 times
-Node 506 changed parent 1 times
-Node 35a changed parent 1 times
-Node 689 changed parent 5 times
-Node 18e changed parent 1 times
-Node 26a changed parent 1 times
-Node 12a changed parent 3 times
-Node 919 changed parent 3 times
-Node a1e changed parent 3 times
-Node 7ac changed parent 5 times
-Node 634 changed parent 4 times
-Node a7f changed parent 3 times
-Node b30 changed parent 2 times
-Node 6d7 changed parent 1 times
-Node a88 changed parent 2 times
-Node 5bf changed parent 1 times
-Node b9e changed parent 5 times
-Node 65b changed parent 2 times
-Node 74f changed parent 3 times
-Node 189 changed parent 4 times
-Node 711 changed parent 1 times
-Node 43e changed parent 1 times
-Node 4ad changed parent 2 times
-Node 814 changed parent 1 times
-Node b94 changed parent 3 times
-Node 738 changed parent 3 times
-Node 7cd changed parent 1 times
-Node 9e4 changed parent 3 times
-Node 2aa changed parent 7 times
-Node 541 changed parent 3 times
-Node bb changed parent 3 times
-Node 57d changed parent 3 times
-Node 9bd changed parent 1 times
-Node 1a8 changed parent 1 times
-Node 93 changed parent 4 times
-Node 232 changed parent 6 times
-Node 25d changed parent 2 times
-Node 33c changed parent 1 times
-Node 2e7 changed parent 8 times
-Node 846 changed parent 1 times
-Node 307 changed parent 1 times
-Node 3fb changed parent 2 times
-Node 66 changed parent 1 times
-Node 51c changed parent 2 times
-Node 704 changed parent 2 times
-Node 181 changed parent 3 times
-Node 9e changed parent 1 times
-Node 540 changed parent 2 times
-Node 555 changed parent 2 times
-Node 11d changed parent 34 times
-Node 6a changed parent 7 times
-Node 48f changed parent 1 times
-Node 332 changed parent 1 times
-Node 162 changed parent 5 times
-Node 7d changed parent 3 times
-Node ca changed parent 3 times
-Node 13c changed parent 16 times
-Node 740 changed parent 1 times
-Node 9b5 changed parent 2 times
-Node 861 changed parent 1 times
-Node 59b changed parent 2 times
-Node 4f2 changed parent 1 times
-Node 85c changed parent 3 times
-Node 4ae changed parent 1 times
-Node 7d8 changed parent 1 times
-Node 950 changed parent 1 times
-Node 2e changed parent 3 times
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Total fix route messages at 21h: 377
-Node 507 changed parent 2 times
-Node 652 changed parent 2 times
-Node 8c6 changed parent 1 times
-Node 61e changed parent 1 times
-Node 1b changed parent 1 times
-Node 705 changed parent 2 times
-Node 5f1 changed parent 1 times
-Node 734 changed parent 1 times
-Node 237 changed parent 3 times
-Node a03 changed parent 3 times
-Node 361 changed parent 27 times
-Node 8e1 changed parent 3 times
-Node 97b changed parent 3 times
-Node 4e0 changed parent 1 times
-Node 868 changed parent 2 times
-Node 13e changed parent 1 times
-Node 885 changed parent 15 times
-Node 886 changed parent 2 times
-Node bb8 changed parent 22 times
-Node a changed parent 1 times
-Node 803 changed parent 3 times
-Node 2f5 changed parent 19 times
-Node 101 changed parent 1 times
-Node 70b changed parent 2 times
-Node 1b0 changed parent 2 times
-Node 7d4 changed parent 5 times
-Node 660 changed parent 2 times
-Node 18f changed parent 4 times
-Node 933 changed parent 2 times
-Node 1a6 changed parent 1 times
-Node 8a0 changed parent 1 times
-Node 3ab changed parent 1 times
-Node 833 changed parent 1 times
-Node 2cf changed parent 2 times
-Node 2d5 changed parent 1 times
-Node 206 changed parent 6 times
-Node 988 changed parent 17 times
-Node 75b changed parent 2 times
-Node 8d changed parent 1 times
-Node 3a1 changed parent 3 times
-Node 6d8 changed parent 1 times
-Node 706 changed parent 1 times
-Node b7d changed parent 1 times
-Node a6c changed parent 1 times
-Node 2b changed parent 1 times
-Node 1a7 changed parent 3 times
-Node aca changed parent 3 times
-Node 196 changed parent 6 times
-Node 3d6 changed parent 1 times
-Node 2ba changed parent 1 times
-Node 115 changed parent 3 times
-Node 6b0 changed parent 1 times
-Node 6a5 changed parent 1 times
-Node 1a2 changed parent 6 times
-Node a08 changed parent 3 times
-Node 2d4 changed parent 9 times
-Node 8bf changed parent 13 times
-Node 14a changed parent 1 times
-Node 68e changed parent 2 times
-Node 954 changed parent 1 times
-Node 8a3 changed parent 1 times
-Node 176 changed parent 5 times
-Node 8d8 changed parent 1 times
-Node 24 changed parent 1 times
-Node 4de changed parent 1 times
-Node 34a changed parent 1 times
-Node 4b4 changed parent 1 times
-Node a17 changed parent 1 times
-Node 1ad changed parent 1 times
-Node 9b4 changed parent 3 times
-Node 845 changed parent 1 times
-Node 11e changed parent 1 times
-Node 871 changed parent 3 times
-Node 25c changed parent 1 times
-Node 6f7 changed parent 1 times
-Node 8bc changed parent 2 times
-Node 27 changed parent 3 times
-Node 4ff changed parent 2 times
-Node 2cd changed parent 3 times
-Node 51e changed parent 2 times
-Node 613 changed parent 1 times
-Node 3c changed parent 1 times
-Node 135 changed parent 2 times
-Node 4c0 changed parent 2 times
-Node 281 changed parent 3 times
-Node 1be changed parent 2 times
-Node a64 changed parent 2 times
-Node ba changed parent 3 times
-Node 1c9 changed parent 8 times
-Node 75d changed parent 2 times
-Node d3 changed parent 3 times
-Node 97f changed parent 2 times
-Node 1da changed parent 10 times
-Node 372 changed parent 3 times
-Node 4 changed parent 1 times
-Node 650 changed parent 1 times
-Node 8d9 changed parent 6 times
-Node 562 changed parent 1 times
-Node 312 changed parent 20 times
-Node 68f changed parent 2 times
-Node 949 changed parent 3 times
-Node 559 changed parent 22 times
-Node 914 changed parent 2 times
-Node bab changed parent 6 times
-Node 1b4 changed parent 3 times
-Node b8c changed parent 1 times
-Node 9a7 changed parent 1 times
-Node a89 changed parent 1 times
-Node 7f changed parent 6 times
-Node 7a9 changed parent 1 times
-Node 156 changed parent 1 times
-Node 587 changed parent 1 times
-Node 6c4 changed parent 3 times
-Node 4e9 changed parent 2 times
-Node 7a6 changed parent 1 times
-Node 364 changed parent 1 times
-Node 257 changed parent 1 times
-Node 21d changed parent 1 times
-Node 676 changed parent 2 times
-Node 609 changed parent 10 times
-Node 33d changed parent 5 times
-Node a16 changed parent 1 times
-Node 1b6 changed parent 5 times
-Node 68d changed parent 3 times
-Node 8de changed parent 12 times
-Node 843 changed parent 2 times
-Node b80 changed parent 2 times
-Node 1e9 changed parent 3 times
-Node 371 changed parent 2 times
-Node 7db changed parent 2 times
-Node 7a1 changed parent 1 times
-Node 5cb changed parent 1 times
-Node 32 changed parent 2 times
-Node 21 changed parent 3 times
-Node 725 changed parent 2 times
-Node 40 changed parent 3 times
-Node 254 changed parent 4 times
-Node 152 changed parent 1 times
-Node a11 changed parent 1 times
-Node 718 changed parent 1 times
-Node 667 changed parent 1 times
-Node 172 changed parent 22 times
-Node d5 changed parent 9 times
-Node abd changed parent 5 times
-Node 501 changed parent 1 times
-Node 75f changed parent 1 times
-Node 72b changed parent 1 times
-Node 820 changed parent 5 times
-Node 5d0 changed parent 2 times
-Node 9c8 changed parent 1 times
-Node 249 changed parent 2 times
-Node a20 changed parent 2 times
-Node 23 changed parent 4 times
-Node f9 changed parent 11 times
-Node 451 changed parent 1 times
-Node 8c9 changed parent 1 times
-Node 47c changed parent 2 times
-Node bac changed parent 10 times
-Node 698 changed parent 9 times
-Node 2a3 changed parent 1 times
-Node 4fb changed parent 1 times
-Node 9c4 changed parent 1 times
-Node 335 changed parent 2 times
-Node 6a3 changed parent 2 times
-Node 2b7 changed parent 13 times
-Node 161 changed parent 7 times
-Node 830 changed parent 1 times
-Node 591 changed parent 4 times
-Node b09 changed parent 5 times
-Node 8a1 changed parent 1 times
-Node 53a changed parent 2 times
-Node 677 changed parent 1 times
-Node 15d changed parent 7 times
-Node 5c0 changed parent 1 times
-Node 87a changed parent 5 times
-Node e7 changed parent 4 times
-Node 29 changed parent 41 times
-Node 991 changed parent 1 times
-Node 151 changed parent 1 times
-Node 9cc changed parent 1 times
-Node 681 changed parent 1 times
-Node 7f6 changed parent 2 times
-Node 6f8 changed parent 1 times
-Node 77f changed parent 5 times
-Node 955 changed parent 4 times
-Node 621 changed parent 1 times
-Node 2c changed parent 2 times
-Node a14 changed parent 2 times
-Node 8ed changed parent 5 times
-Node b5 changed parent 2 times
-Node 322 changed parent 1 times
-Node 33f changed parent 2 times
-Node 996 changed parent 2 times
-Node 25a changed parent 1 times
-Node 2e2 changed parent 2 times
-Node 8ea changed parent 2 times
-Node 1c8 changed parent 1 times
-Node 373 changed parent 12 times
-Node 917 changed parent 1 times
-Node 9dd changed parent 3 times
-Node 5e changed parent 6 times
-Node 188 changed parent 1 times
-Node 927 changed parent 31 times
-Node 356 changed parent 18 times
-Node 6c2 changed parent 2 times
-Node 643 changed parent 1 times
-Node 937 changed parent 2 times
-Node a80 changed parent 1 times
-Node 4d4 changed parent 2 times
-Node 638 changed parent 4 times
-Node 435 changed parent 1 times
-Node 85a changed parent 1 times
-Node 6ac changed parent 2 times
-Node 1a4 changed parent 2 times
-Node 2a5 changed parent 4 times
-Node 872 changed parent 1 times
-Node 71a changed parent 7 times
-Node 6ff changed parent 2 times
-Node 1c2 changed parent 8 times
-Node b2c changed parent 4 times
-Node 971 changed parent 9 times
-Node 69d changed parent 4 times
-Node bb1 changed parent 4 times
-Node 1dc changed parent 1 times
-Node b9c changed parent 12 times
-Node 662 changed parent 1 times
-Node b9b changed parent 1 times
-Node a5a changed parent 8 times
-Node 5f6 changed parent 2 times
-Node 982 changed parent 2 times
-Node 298 changed parent 3 times
-Node b7b changed parent 4 times
-Node 2c7 changed parent 5 times
-Node 233 changed parent 1 times
-Node 35f changed parent 14 times
-Node 593 changed parent 2 times
-Node 384 changed parent 29 times
-Node 68a changed parent 4 times
-Node ba6 changed parent 1 times
-Node 1e0 changed parent 3 times
-Node a3c changed parent 2 times
-Node 736 changed parent 1 times
-Node b63 changed parent 1 times
-Node 216 changed parent 2 times
-Node 6be changed parent 1 times
-Node 2f9 changed parent 1 times
-Node 27b changed parent 4 times
-Node 297 changed parent 1 times
-Node acc changed parent 2 times
-Node 663 changed parent 8 times
-Node 213 changed parent 2 times
-Node 10 changed parent 4 times
-Node 729 changed parent 1 times
-Node 753 changed parent 4 times
-Node b9a changed parent 1 times
-Node 616 changed parent 9 times
-Node 6a2 changed parent 5 times
-Node 228 changed parent 1 times
-Node b32 changed parent 1 times
-Node 550 changed parent 2 times
-Node 963 changed parent 2 times
-Node 518 changed parent 8 times
-Node b01 changed parent 1 times
-Node 353 changed parent 4 times
-Node b87 changed parent 8 times
-Node ec changed parent 1 times
-Node 610 changed parent 10 times
-Node 831 changed parent 2 times
-Node 61a changed parent 1 times
-Node 82d changed parent 6 times
-Node 55a changed parent 5 times
-Node b6f changed parent 10 times
-Node 72a changed parent 3 times
-Node 91 changed parent 3 times
-Node 105 changed parent 1 times
-Node 7ca changed parent 1 times
-Node 131 changed parent 1 times
-Node 788 changed parent 2 times
-Node 8b7 changed parent 1 times
-Node 966 changed parent 1 times
-Node 63a changed parent 8 times
-Node 81f changed parent 1 times
-Node 58d changed parent 2 times
-Node 6d0 changed parent 1 times
-Node 852 changed parent 2 times
-Node 52a changed parent 3 times
-Node 74 changed parent 4 times
-Node 7c changed parent 1 times
-Node 528 changed parent 3 times
-Node 994 changed parent 1 times
-Node 3f2 changed parent 3 times
-Node 8f changed parent 13 times
-Node 747 changed parent 3 times
-Node 897 changed parent 1 times
-Node 351 changed parent 1 times
-Node 714 changed parent 1 times
-Node 8dd changed parent 2 times
-Node 770 changed parent 1 times
-Node 502 changed parent 2 times
-Node a52 changed parent 2 times
-Node 381 changed parent 1 times
-Node 7b0 changed parent 2 times
-Node 84e changed parent 1 times
-Node 579 changed parent 1 times
-Node baf changed parent 12 times
-Node 819 changed parent 2 times
-Node 2b1 changed parent 2 times
-Node a82 changed parent 1 times
-Node 6ea changed parent 1 times
-Node 678 changed parent 4 times
-Node 972 changed parent 1 times
-Node 780 changed parent 7 times
-Node ad8 changed parent 13 times
-Node 1e changed parent 2 times
-Node 18 changed parent 3 times
-Node 624 changed parent 2 times
-Node 8ac changed parent 1 times
-Node 9cf changed parent 1 times
-Node 39e changed parent 1 times
-Node 6ed changed parent 1 times
-Node cd changed parent 4 times
-Node 383 changed parent 8 times
-Node 363 changed parent 1 times
-Node 99d changed parent 5 times
-Node 6e9 changed parent 2 times
-Node 79e changed parent 2 times
-Node 3e3 changed parent 4 times
-Node a2c changed parent 4 times
-Node 611 changed parent 2 times
-Node 9ff changed parent 1 times
-Node 52e changed parent 7 times
-Node 1d5 changed parent 1 times
-Node 85e changed parent 2 times
-Node b92 changed parent 8 times
-Node 10c changed parent 2 times
-Node 8ce changed parent 3 times
-Node 2b6 changed parent 1 times
-Node 742 changed parent 3 times
-Node a71 changed parent 1 times
-Node 92a changed parent 2 times
-Node 7ef changed parent 1 times
-Node 4c3 changed parent 17 times
-Node 88 changed parent 3 times
-Node 314 changed parent 2 times
-Node 263 changed parent 1 times
-Node 376 changed parent 15 times
-Node 75c changed parent 3 times
-Node 516 changed parent 4 times
-Node 49 changed parent 6 times
-Node 2fe changed parent 33 times
-Node b39 changed parent 1 times
-Node 798 changed parent 11 times
-Node 61c changed parent 4 times
-Node a25 changed parent 1 times
-Node 59a changed parent 4 times
-Node 1de changed parent 1 times
-Node 48d changed parent 9 times
-Node 310 changed parent 3 times
-Node 93b changed parent 1 times
-Node 186 changed parent 2 times
-Node 3e2 changed parent 3 times
-Node 33a changed parent 2 times
-Node 39 changed parent 1 times
-Node dc changed parent 5 times
-Node 92c changed parent 2 times
-Node 862 changed parent 2 times
-Node 5e3 changed parent 2 times
-Node 6f2 changed parent 2 times
-Node a4 changed parent 1 times
-Node 37e changed parent 13 times
-Node 3b changed parent 1 times
-Node 821 changed parent 2 times
-Node 2a2 changed parent 4 times
-Node 946 changed parent 6 times
-Node 7df changed parent 2 times
-Node d changed parent 1 times
-Node 86b changed parent 5 times
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Total fix route messages at 22h: 461
-Node 88c changed parent 2 times
-Node 53f changed parent 1 times
-Node 553 changed parent 2 times
-Node 9bb changed parent 1 times
-Node 767 changed parent 2 times
-Node 17f changed parent 2 times
-Node 71c changed parent 1 times
-Node 824 changed parent 1 times
-Node 7c9 changed parent 1 times
-Node 67b changed parent 3 times
-Node 54c changed parent 11 times
-Node 889 changed parent 2 times
-Node 7a changed parent 4 times
-Node 7d1 changed parent 2 times
-Node 345 changed parent 2 times
-Node adc changed parent 6 times
-Node 5c4 changed parent 2 times
-Node 781 changed parent 1 times
-Node 4bb changed parent 17 times
-Node b6d changed parent 4 times
-Node 4d changed parent 1 times
-Node ba4 changed parent 2 times
-Node 4cf changed parent 1 times
-Node 1a1 changed parent 3 times
-Node 94 changed parent 5 times
-Node 5ee changed parent 1 times
-Node 5d5 changed parent 8 times
-Node d6 changed parent 1 times
-Node 29e changed parent 1 times
-Node 30 changed parent 1 times
-Node 836 changed parent 2 times
-Node 330 changed parent 1 times
-Node 477 changed parent 2 times
-Node 21f changed parent 3 times
-Node 7af changed parent 3 times
-Node a4d changed parent 1 times
-Node 76c changed parent 1 times
-Node 1c3 changed parent 1 times
-Node 10f changed parent 1 times
-Node ade changed parent 1 times
-Node 8b5 changed parent 1 times
-Node b8 changed parent 1 times
-Node 5ad changed parent 9 times
-Node 202 changed parent 1 times
-Node 701 changed parent 1 times
-Node 9e6 changed parent 6 times
-Node 80e changed parent 2 times
-Node 91b changed parent 1 times
-Node 67 changed parent 1 times
-Node b7f changed parent 1 times
-Node b84 changed parent 1 times
-Node ac6 changed parent 4 times
-Node 262 changed parent 1 times
-Node 17b changed parent 4 times
-Node 8bb changed parent 1 times
-Node 957 changed parent 3 times
-Node 607 changed parent 5 times
-Node 99e changed parent 1 times
-Node a45 changed parent 1 times
-Node 192 changed parent 9 times
-Node 66e changed parent 4 times
-Node 5ce changed parent 3 times
-Node 5ec changed parent 7 times
-Node 85d changed parent 2 times
-Node 211 changed parent 1 times
-Node 22 changed parent 1 times
-Node 869 changed parent 2 times
-Node 12 changed parent 2 times
-Node a09 changed parent 1 times
-Node b38 changed parent 1 times
-Node 5fc changed parent 2 times
-Node 713 changed parent 1 times
-Node 687 changed parent 4 times
-Node ae0 changed parent 8 times
-Node 712 changed parent 1 times
-Node 1ea changed parent 3 times
-Node 749 changed parent 4 times
-Node 1a3 changed parent 1 times
-Node 81e changed parent 1 times
-Node 28d changed parent 1 times
-Node f4 changed parent 1 times
-Node 5bb changed parent 1 times
-Node 275 changed parent 1 times
-Node 8a7 changed parent 1 times
-Node 334 changed parent 1 times
-Node 8ca changed parent 1 times
-Node fc changed parent 1 times
-Node 380 changed parent 21 times
-Node 908 changed parent 2 times
-Node a70 changed parent 1 times
-Node da changed parent 1 times
-Node 948 changed parent 1 times
-Node 3c0 changed parent 14 times
-Node 69c changed parent 6 times
-Node 622 changed parent 2 times
-Node ab4 changed parent 6 times
-Node 132 changed parent 1 times
-Node 106 changed parent 1 times
-Node 841 changed parent 1 times
-Node 6bb changed parent 3 times
-Node 3d2 changed parent 15 times
-Node 74b changed parent 1 times
-Node 36 changed parent 2 times
-Node 244 changed parent 1 times
-Node 9f7 changed parent 1 times
-Node 2a8 changed parent 2 times
-Node 280 changed parent 2 times
-Node a2f changed parent 1 times
-Node 30b changed parent 1 times
-Node 4a5 changed parent 2 times
-Node 9b6 changed parent 1 times
-Node 625 changed parent 3 times
-Node b8e changed parent 7 times
-Node 8c0 changed parent 1 times
-Node 134 changed parent 2 times
-Node 1e7 changed parent 1 times
-Node b5f changed parent 13 times
-Node 976 changed parent 9 times
-Node 5cf changed parent 1 times
-Node b1a changed parent 3 times
-Node 1bc changed parent 4 times
-Node 282 changed parent 1 times
-Node 3f5 changed parent 20 times
-Node 6af changed parent 1 times
-Node 859 changed parent 1 times
-Node 4ca changed parent 2 times
-Node a0 changed parent 2 times
-Node 62 changed parent 2 times
-Node 278 changed parent 1 times
-Node 34 changed parent 1 times
-Node 526 changed parent 1 times
-Node 70f changed parent 1 times
-Node 864 changed parent 4 times
-Node 5f8 changed parent 3 times
-Node 7d3 changed parent 1 times
-Node 21a changed parent 3 times
-Node 5fd changed parent 14 times
-Node bad changed parent 5 times
-Node 4a2 changed parent 1 times
-Node ba0 changed parent 9 times
-Node 778 changed parent 1 times
-Node 4a4 changed parent 1 times
-Node 155 changed parent 5 times
-Node 24a changed parent 1 times
-Node a81 changed parent 2 times
-Node 9b7 changed parent 1 times
-Node 983 changed parent 4 times
-Node 1f changed parent 3 times
-Node 853 changed parent 2 times
-Node 5c6 changed parent 2 times
-Node ac5 changed parent 1 times
-Node 816 changed parent 1 times
-Node 1ac changed parent 2 times
-Node 5da changed parent 1 times
-Node a6e changed parent 1 times
-Node 171 changed parent 4 times
-Node 4be changed parent 3 times
-Node 7f3 changed parent 2 times
-Node 8a5 changed parent 2 times
-Node 759 changed parent 1 times
-Node 8f4 changed parent 1 times
-Node 797 changed parent 1 times
-Node 7aa changed parent 1 times
-Node b8a changed parent 5 times
-Node 341 changed parent 1 times
-Node 1cb changed parent 1 times
-Node 82 changed parent 2 times
-Node 6ce changed parent 4 times
-Node fe changed parent 1 times
-Node 659 changed parent 1 times
-Node 930 changed parent 2 times
-Node 645 changed parent 1 times
-Node 804 changed parent 2 times
-Node b91 changed parent 5 times
-Node ad4 changed parent 1 times
-Node 787 changed parent 2 times
-Node 21e changed parent 1 times
-Node 9c0 changed parent 2 times
-Node 8f9 changed parent 1 times
-Node 27a changed parent 11 times
-Node 168 changed parent 1 times
-Node 28e changed parent 2 times
-Node 9f1 changed parent 3 times
-Node 4fc changed parent 1 times
-Node 525 changed parent 1 times
-Node 690 changed parent 1 times
-Node 30a changed parent 1 times
-Node 835 changed parent 1 times
-Node 9d2 changed parent 1 times
-Node 619 changed parent 1 times
-Node c changed parent 2 times
-Node 89c changed parent 2 times
-Node 5e2 changed parent 5 times
-Node a38 changed parent 1 times
-Node 32b changed parent 4 times
-Node 62e changed parent 1 times
-Node 16e changed parent 1 times
-Node 943 changed parent 1 times
-Node 858 changed parent 1 times
-Node ab2 changed parent 1 times
-Node a23 changed parent 1 times
-Node 2ab changed parent 1 times
-Node 266 changed parent 1 times
-Node 5b5 changed parent 1 times
-Node 7 changed parent 7 times
-Node 867 changed parent 7 times
-Node 4c4 changed parent 1 times
-Node 9bc changed parent 1 times
-Node aa changed parent 1 times
-Node 6e5 changed parent 1 times
-Node 253 changed parent 1 times
-Node 6e1 changed parent 1 times
-Node 6b2 changed parent 2 times
-Node 9c6 changed parent 6 times
-Node 657 changed parent 3 times
-Node 3a6 changed parent 5 times
-Node 386 changed parent 6 times
-Node 8e5 changed parent 3 times
-Node 3a7 changed parent 8 times
-Node 123 changed parent 1 times
-Node 269 changed parent 1 times
-Node 15f changed parent 1 times
-Node 873 changed parent 7 times
-Node b3a changed parent 22 times
-Node 217 changed parent 7 times
-Node 9 changed parent 2 times
-Node 92f changed parent 1 times
-Node 60d changed parent 3 times
-Node 68b changed parent 1 times
-Node 81 changed parent 1 times
-Node 1d changed parent 1 times
-Node 268 changed parent 1 times
-Node 989 changed parent 4 times
-Node c4 changed parent 1 times
-Node 77b changed parent 1 times
-Node 306 changed parent 14 times
-Node 6a0 changed parent 1 times
-Node 9ed changed parent 1 times
-Node 50a changed parent 1 times
-Node 352 changed parent 4 times
-Node 921 changed parent 1 times
-Node 530 changed parent 1 times
-Node b93 changed parent 11 times
-Node 2ea changed parent 4 times
-Node 26f changed parent 3 times
-Node 1db changed parent 2 times
-Node b2d changed parent 3 times
-Node 60e changed parent 3 times
-Node 1a9 changed parent 1 times
-Node 13f changed parent 1 times
-Node 874 changed parent 1 times
-Node 3dc changed parent 11 times
-Node 2d0 changed parent 15 times
-Node 490 changed parent 6 times
-Node 32f changed parent 10 times
-Node 2e3 changed parent 2 times
-Node 387 changed parent 2 times
-Node 792 changed parent 11 times
-Node b85 changed parent 5 times
-Node 333 changed parent 10 times
-Node 6e8 changed parent 9 times
-Node 7fa changed parent 2 times
-Node 1fc changed parent 6 times
-Node 6d2 changed parent 3 times
-Node a1b changed parent 21 times
-Node 686 changed parent 2 times
-Node 9a5 changed parent 1 times
-Node 4a8 changed parent 1 times
-Node 2d9 changed parent 1 times
-Node 2ef changed parent 1 times
-Node b79 changed parent 1 times
-Node 146 changed parent 11 times
-Node 2dc changed parent 1 times
-Node 203 changed parent 1 times
-Node 295 changed parent 2 times
-Node 2e1 changed parent 1 times
-Node 29b changed parent 1 times
-Node 19a changed parent 1 times
-Node 2c0 changed parent 13 times
-Node 1dd changed parent 1 times
-Node 137 changed parent 1 times
-Node b1 changed parent 2 times
-Node 76b changed parent 1 times
-Node 15c changed parent 1 times
-Node 8da changed parent 3 times
-Node 179 changed parent 1 times
-Node 926 changed parent 1 times
-Node b2e changed parent 19 times
-Node 65c changed parent 1 times
-Node 9fa changed parent 1 times
-Node 357 changed parent 9 times
-Node 2ed changed parent 1 times
-Node 2bb changed parent 2 times
-Node 6c5 changed parent 18 times
-Node a4e changed parent 6 times
-Node 633 changed parent 1 times
-Node 66c changed parent 4 times
-Node 560 changed parent 5 times
-Node 25 changed parent 12 times
-Node 437 changed parent 1 times
-Node 90a changed parent 3 times
-Node 3eb changed parent 2 times
-Node 3b8 changed parent 10 times
-Node 5a4 changed parent 1 times
-Node 129 changed parent 9 times
-Node 5e0 changed parent 8 times
-Node 1ce changed parent 1 times
-Node 35b changed parent 1 times
-Node b2f changed parent 1 times
-Node 12f changed parent 2 times
-Node 2b9 changed parent 1 times
-Node 55d changed parent 1 times
-Node 74c changed parent 1 times
-Node 38a changed parent 6 times
-Node 2be changed parent 1 times
-Node 69a changed parent 2 times
-Node 3b7 changed parent 1 times
-Node 4b0 changed parent 3 times
-Node 615 changed parent 1 times
-Node 350 changed parent 1 times
-Node 1ca changed parent 1 times
-Node 1c7 changed parent 2 times
-Node b05 changed parent 1 times
-Node 291 changed parent 1 times
-Node 2ce changed parent 1 times
-Node a41 changed parent 1 times
-Node 5ff changed parent 1 times
-Node 30d changed parent 1 times
-Node 324 changed parent 4 times
-Node 76e changed parent 1 times
-Node ba8 changed parent 27 times
-Node 539 changed parent 1 times
-Node 2af changed parent 2 times
-Node 391 changed parent 6 times
-Node 728 changed parent 1 times
-Node 3ba changed parent 5 times
-Node 1d2 changed parent 1 times
-Node 5cc changed parent 1 times
-Node b50 changed parent 9 times
-Node b73 changed parent 10 times
-Node 399 changed parent 1 times
-Node bb3 changed parent 11 times
-Node 22b changed parent 1 times
-Node 1e5 changed parent 1 times
-Node 7b1 changed parent 1 times
-Node 71d changed parent 1 times
-Node 703 changed parent 1 times
-Node 74a changed parent 1 times
-Node 53b changed parent 4 times
-Node 6ef changed parent 1 times
-Node b71 changed parent 1 times
-Node 209 changed parent 2 times
-Node 20d changed parent 1 times
-Node 2f0 changed parent 7 times
-Node 902 changed parent 3 times
-Node 395 changed parent 22 times
-Node 12d changed parent 7 times
-Node 7a0 changed parent 1 times
-Node a50 changed parent 1 times
-Node 35e changed parent 4 times
-Node ae changed parent 2 times
-Node 27e changed parent 2 times
-Node 2a7 changed parent 14 times
-Node b37 changed parent 10 times
-Node 274 changed parent 1 times
-Node 510 changed parent 1 times
-Node 65 changed parent 10 times
-Node 829 changed parent 2 times
-Node 766 changed parent 3 times
-Node 77d changed parent 1 times
-Node 8eb changed parent 12 times
-Node 6e changed parent 2 times
-Node 3c4 changed parent 18 times
-Node 10b changed parent 11 times
-Node 929 changed parent 13 times
-Node 52b changed parent 1 times
-Node 569 changed parent 1 times
-Node 782 changed parent 6 times
-Node 2e4 changed parent 2 times
-Node 142 changed parent 3 times
-Node 5c changed parent 2 times
-Node 82e changed parent 2 times
-Node ab0 changed parent 8 times
-Node a49 changed parent 5 times
-Node b98 changed parent 4 times
-Node 618 changed parent 1 times
-Node 23c changed parent 7 times
-Node 183 changed parent 14 times
-Node 300 changed parent 3 times
-Node 7f9 changed parent 3 times
-Node ac4 changed parent 13 times
-Node 699 changed parent 4 times
-Node 7eb changed parent 4 times
-Node a83 changed parent 17 times
-Node 78 changed parent 3 times
-Node 327 changed parent 1 times
-Node 89a changed parent 1 times
-Node 28f changed parent 1 times
-Node 717 changed parent 3 times
-Node b3c changed parent 2 times
-Node 398 changed parent 7 times
-Node a40 changed parent 2 times
-Node 16f changed parent 1 times
-Node 24c changed parent 1 times
-Node 31f changed parent 4 times
-Node 7d9 changed parent 8 times
-Node 73f changed parent 1 times
-Node a69 changed parent 1 times
-Node ba9 changed parent 4 times
-Node 25b changed parent 2 times
-Node 16b changed parent 1 times
-Node a53 changed parent 11 times
-Node 8b0 changed parent 1 times
-Node 5d3 changed parent 2 times
-Node 6b8 changed parent 2 times
-Node c9 changed parent 1 times
-Node 8c8 changed parent 1 times
-Node b02 changed parent 6 times
-Node 776 changed parent 2 times
-Node b59 changed parent 11 times
-Node b90 changed parent 6 times
-Node 5ed changed parent 2 times
-Node a4a changed parent 1 times
-Node c6 changed parent 2 times
-Node 786 changed parent 1 times
-Node 4cd changed parent 1 times
-Node 5b1 changed parent 4 times
-Node 245 changed parent 3 times
-Node 4e7 changed parent 1 times
-Node 6b9 changed parent 7 times
-Node dd changed parent 3 times
-Node 3d changed parent 4 times
-Node 3ce changed parent 4 times
-Node 2a9 changed parent 1 times
-Node a0e changed parent 4 times
-Node a95 changed parent 5 times
-Node 9eb changed parent 12 times
-Node 1f5 changed parent 2 times
-Node 7bd changed parent 1 times
-Node e2 changed parent 7 times
-Node 55 changed parent 1 times
-Node b7c changed parent 7 times
-Node 4c6 changed parent 1 times
-Node 221 changed parent 1 times
-Node ef changed parent 3 times
-Node 2ae changed parent 1 times
-Node 4f9 changed parent 1 times
-Node 29f changed parent 2 times
-Node 94c changed parent 1 times
-Node 379 changed parent 7 times
-Node 14 changed parent 4 times
-Node f8 changed parent 1 times
-Node 3b6 changed parent 5 times
-Node b81 changed parent 1 times
-Node b83 changed parent 5 times
-Node 4b7 changed parent 2 times
-Node 9be changed parent 7 times
-Node 7c4 changed parent 1 times
-Node 5a1 changed parent 1 times
-Node 9ec changed parent 4 times
-Node 801 changed parent 3 times
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Total fix route messages at 23h: 431
-Node 5b3 changed parent 2 times
-Node 294 changed parent 1 times
-Node a8a changed parent 1 times
-Node 2f7 changed parent 4 times
-Node 1bd changed parent 1 times
-Node 325 changed parent 3 times
-Node bb5 changed parent 5 times
-Node 6dc changed parent 5 times
-Node 1d4 changed parent 1 times
-Node 2a1 changed parent 1 times
-Node 3fe changed parent 19 times
-Node bb0 changed parent 3 times
-Node 39a changed parent 10 times
-Node 31d changed parent 1 times
-Node 62a changed parent 5 times
-Node 3f7 changed parent 18 times
-Node 67c changed parent 1 times
-Node 666 changed parent 1 times
-Node 5f0 changed parent 1 times
-Node 9f2 changed parent 4 times
-Node 4f4 changed parent 6 times
-Node 727 changed parent 1 times
-Node 41b changed parent 22 times
-Node 39c changed parent 6 times
-Node 2fd changed parent 9 times
-Node 190 changed parent 1 times
-Node 409 changed parent 19 times
-Node 3aa changed parent 14 times
-Node 6d4 changed parent 1 times
-Node 887 changed parent 7 times
-Node b95 changed parent 4 times
-Node 390 changed parent 7 times
-Node 1f8 changed parent 1 times
-Node b5e changed parent 6 times
-Node aaf changed parent 5 times
-Node a48 changed parent 1 times
-Node 2c8 changed parent 1 times
-Node 66d changed parent 1 times
-Node 394 changed parent 8 times
-Node 2ff changed parent 7 times
-Node 62c changed parent 1 times
-Node 347 changed parent 7 times
-Node 38e changed parent 6 times
-Node 998 changed parent 1 times
-Node 636 changed parent 1 times
-Node 7b5 changed parent 2 times
-Node 309 changed parent 1 times
-Node 6cd changed parent 2 times
-Node b26 changed parent 1 times
-Node 3c2 changed parent 9 times
-Node a0b changed parent 1 times
-Node 2cb changed parent 1 times
-Node 3e5 changed parent 14 times
-Node 6e4 changed parent 4 times
-Node 3e1 changed parent 23 times
-Node 8e4 changed parent 14 times
-Node 6f4 changed parent 4 times
-Node 1f1 changed parent 4 times
-Node 637 changed parent 1 times
-Node 426 changed parent 15 times
-Node 397 changed parent 7 times
-Node 684 changed parent 1 times
-Node 552 changed parent 1 times
-Node 36c changed parent 1 times
-Node 436 changed parent 16 times
-Node 38 changed parent 3 times
-Node 8f5 changed parent 2 times
-Node 340 changed parent 1 times
-Node 5e7 changed parent 1 times
-Node 721 changed parent 1 times
-Node 163 changed parent 1 times
-Node a2a changed parent 1 times
-Node 2d3 changed parent 2 times
-Node 2b0 changed parent 2 times
-Node 7f0 changed parent 2 times
-Node 5a5 changed parent 7 times
-Node 680 changed parent 1 times
-Node 27d changed parent 1 times
-Node a87 changed parent 3 times
-Node 5e8 changed parent 10 times
-Node 514 changed parent 1 times
-Node 73b changed parent 1 times
-Node 2c4 changed parent 7 times
-Node 96b changed parent 1 times
-Node 2a4 changed parent 2 times
-Node 44b changed parent 15 times
-Node 96f changed parent 1 times
-Node 7c0 changed parent 2 times
-Node 93a changed parent 2 times
-Node 9e9 changed parent 4 times
-Node 42c changed parent 3 times
-Node 640 changed parent 2 times
-Node 9d6 changed parent 1 times
-Node ab1 changed parent 3 times
-Node 826 changed parent 1 times
-Node 56b changed parent 3 times
-Node 764 changed parent 2 times
-Node 5d7 changed parent 2 times
-Node 2b4 changed parent 1 times
-Node 63 changed parent 1 times
-Node 1c0 changed parent 1 times
-Node 32c changed parent 3 times
-Node 1d1 changed parent 2 times
-Node 960 changed parent 4 times
-Node 7d0 changed parent 1 times
-Node f3 changed parent 12 times
-Node b99 changed parent 4 times
-Node 2de changed parent 11 times
-Node 318 changed parent 2 times
-Node 958 changed parent 3 times
-Node 993 changed parent 3 times
-Node bb2 changed parent 5 times
-Node 688 changed parent 6 times
-Node 25f changed parent 1 times
-Node b7a changed parent 1 times
-Node 3be changed parent 5 times
-Node 2f1 changed parent 1 times
-Node 354 changed parent 6 times
-Node abf changed parent 1 times
-Node 2e9 changed parent 6 times
-Node 642 changed parent 1 times
-Node 5f4 changed parent 1 times
-Node 2f3 changed parent 4 times
-Node 6ca changed parent 4 times
-Node 6e6 changed parent 2 times
-Node 658 changed parent 1 times
-Node 5f9 changed parent 1 times
-Node 346 changed parent 4 times
-Node a5c changed parent 9 times
-Node 1f2 changed parent 8 times
-Node 38f changed parent 27 times
-Node 2d2 changed parent 13 times
-Node ff changed parent 4 times
-Node 7dc changed parent 1 times
-Node 9fd changed parent 1 times
-Node 197 changed parent 1 times
-Node 679 changed parent 2 times
-Node b8d changed parent 8 times
-Node 5c1 changed parent 2 times
-Node 8fb changed parent 1 times
-Node b96 changed parent 4 times
-Node 44a changed parent 10 times
-Node 413 changed parent 7 times
-Node 726 changed parent 1 times
-Node 9a0 changed parent 1 times
-Node ba1 changed parent 4 times
-Node 5a0 changed parent 1 times
-Node 432 changed parent 13 times
-Node 7e6 changed parent 1 times
-Node 5ae changed parent 1 times
-Node 789 changed parent 1 times
-Node 2ee changed parent 10 times
-Node 2e0 changed parent 7 times
-Node 85b changed parent 1 times
-Node 4f0 changed parent 2 times
-Node 774 changed parent 4 times
-Node bb9 changed parent 3 times
-Node 9ad changed parent 1 times
-Node 34c changed parent 1 times
-Node 7d6 changed parent 14 times
-Node 24f changed parent 1 times
-Node 304 changed parent 3 times
-Node 99b changed parent 2 times
-Node 813 changed parent 2 times
-Node 492 changed parent 1 times
-Node 1af changed parent 1 times
-Node 620 changed parent 1 times
-Node 440 changed parent 8 times
-Node 992 changed parent 3 times
-Node 4dc changed parent 1 times
-Node 43d changed parent 10 times
-Node 94b changed parent 1 times
-Node 71e changed parent 1 times
-Node 5e5 changed parent 13 times
-Node 13b changed parent 1 times
-Node 247 changed parent 14 times
-Node 664 changed parent 2 times
-Node 635 changed parent 1 times
-Node 7cb changed parent 2 times
-Node 838 changed parent 3 times
-Node 444 changed parent 2 times
-Node 37b changed parent 15 times
-Node bb6 changed parent 10 times
-Node 17d changed parent 1 times
-Node ba2 changed parent 8 times
-Node fa changed parent 2 times
-Node a44 changed parent 2 times
-Node 3e8 changed parent 9 times
-Node 50c changed parent 3 times
-Node 467 changed parent 2 times
-Node d1 changed parent 17 times
-Node 893 changed parent 1 times
-Node 98e changed parent 1 times
-Node 177 changed parent 2 times
-Node 762 changed parent 1 times
-Node 18c changed parent 2 times
-Node 2da changed parent 1 times
-Node a22 changed parent 1 times
-Node 392 changed parent 5 times
-Node a3e changed parent 3 times
-Node 31c changed parent 2 times
-Node 173 changed parent 1 times
-Node 909 changed parent 2 times
-Node 1fe changed parent 1 times
-Node 6cf changed parent 1 times
-Node 17e changed parent 1 times
-Node 6fb changed parent 1 times
-Node 903 changed parent 7 times
-Node 32a changed parent 3 times
-Node b6b changed parent 5 times
-Node 59e changed parent 12 times
-Node 48b changed parent 1 times
-Node cf changed parent 1 times
-Node 3ef changed parent 12 times
-Node 489 changed parent 1 times
-Node 9e8 changed parent 1 times
-Node 3d0 changed parent 1 times
-Node 59f changed parent 2 times
-Node 7ab changed parent 2 times
-Node 375 changed parent 5 times
-Node 7de changed parent 2 times
-Node 500 changed parent 2 times
-Node 7a7 changed parent 1 times
-Node 41c changed parent 3 times
-Node 2c9 changed parent 2 times
-Node 403 changed parent 15 times
-Node a46 changed parent 1 times
-Node 70e changed parent 2 times
-Node 83a changed parent 2 times
-Node 39d changed parent 4 times
-Node 751 changed parent 3 times
-Node a9 changed parent 1 times
-Node 7ec changed parent 3 times
-Node 401 changed parent 10 times
-Node 40f changed parent 13 times
-Node 494 changed parent 2 times
-Node 360 changed parent 1 times
-Node 26e changed parent 1 times
-Node 124 changed parent 2 times
-Node 362 changed parent 1 times
-Node 19f changed parent 1 times
-Node 40e changed parent 9 times
-Node 7c1 changed parent 1 times
-Node 65d changed parent 1 times
-Node 258 changed parent 1 times
-Node 756 changed parent 2 times
-Node 6fe changed parent 16 times
-Node 1f4 changed parent 3 times
-Node 5be changed parent 3 times
-Node cc changed parent 2 times
-Node 19c changed parent 6 times
-Node 8ae changed parent 1 times
-Node f7 changed parent 1 times
-Node 4d3 changed parent 2 times
-Node 564 changed parent 3 times
-Node 15b changed parent 1 times
-Node 631 changed parent 3 times
-Node 53 changed parent 3 times
-Node 9a2 changed parent 2 times
-Node 936 changed parent 2 times
-Node 56d changed parent 1 times
-Node 45b changed parent 2 times
-Node 4d0 changed parent 2 times
-Node 7f4 changed parent 1 times
-Node 64e changed parent 1 times
-Node e3 changed parent 1 times
-Node 7b3 changed parent 1 times
-Node 7bb changed parent 2 times
-Node 4d8 changed parent 2 times
-Node 2db changed parent 4 times
-Node 466 changed parent 2 times
-Node 641 changed parent 2 times
-Node 511 changed parent 2 times
-Node 77c changed parent 1 times
-Node 8f3 changed parent 2 times
-Node 9b0 changed parent 1 times
-Node 43f changed parent 1 times
-Node 424 changed parent 22 times
-Node 125 changed parent 1 times
-Node aaa changed parent 4 times
-Node 605 changed parent 1 times
-Node b17 changed parent 2 times
-Node 1ef changed parent 7 times
-Node 1fb changed parent 2 times
-Node 961 changed parent 1 times
-Node 505 changed parent 1 times
-Node 855 changed parent 1 times
-Node 321 changed parent 1 times
-Node 7b6 changed parent 2 times
-Node 571 changed parent 2 times
-Node 305 changed parent 3 times
-Node 83e changed parent 2 times
-Node 768 changed parent 13 times
-Node 6c8 changed parent 1 times
-Node a5f changed parent 12 times
-Node 2e8 changed parent 2 times
-Node 8d6 changed parent 1 times
-Node 5cd changed parent 1 times
-Node baa changed parent 6 times
-Node 709 changed parent 2 times
-Node 326 changed parent 1 times
-Node 4c1 changed parent 1 times
-Node 207 changed parent 1 times
-Node 3f9 changed parent 2 times
-Node 49d changed parent 1 times
-Node 6b1 changed parent 1 times
-Node 32d changed parent 3 times
-Node 87e changed parent 1 times
-Node 42f changed parent 1 times
-Node b97 changed parent 8 times
-Node 3cd changed parent 5 times
-Node 649 changed parent 1 times
-Node 840 changed parent 1 times
-Node 524 changed parent 1 times
-Node 598 changed parent 1 times
-Node a06 changed parent 3 times
-Node 5b6 changed parent 1 times
-Node 40c changed parent 8 times
-Node 5bc changed parent 1 times
-Node 8d3 changed parent 1 times
-Node 656 changed parent 2 times
-Node 89 changed parent 1 times
-Node a9c changed parent 13 times
-Node adf changed parent 6 times
-Node 567 changed parent 4 times
-Node 6e0 changed parent 1 times
-Node 99f changed parent 3 times
-Node 5f2 changed parent 1 times
-Node 54e changed parent 1 times
-Node 63e changed parent 2 times
-Node 791 changed parent 1 times
-Node ab5 changed parent 5 times
-Node 86f changed parent 1 times
-Node 6fd changed parent 1 times
-Node 412 changed parent 18 times
-Node 72 changed parent 1 times
-Node 428 changed parent 8 times
-Node b5a changed parent 2 times
-Node 445 changed parent 15 times
-Node 3cf changed parent 2 times
-Node 14c changed parent 1 times
-Node 6a1 changed parent 8 times
-Node 6f changed parent 1 times
-Node 720 changed parent 1 times
-Node b24 changed parent 2 times
-Node ee changed parent 1 times
-Node bf changed parent 3 times
-Node 8db changed parent 6 times
-Node 685 changed parent 1 times
-Node 81d changed parent 1 times
-Node a94 changed parent 3 times
-Node 15e changed parent 1 times
-Node 8fd changed parent 8 times
-Node 50e changed parent 1 times
-Node 602 changed parent 1 times
-Node bb4 changed parent 7 times
-Node 481 changed parent 1 times
-Node 8b changed parent 2 times
-Node 737 changed parent 1 times
-Node 815 changed parent 2 times
-Node 3b5 changed parent 3 times
-Node 978 changed parent 1 times
-Node 3dd changed parent 9 times
-Node 97d changed parent 2 times
-Node 159 changed parent 1 times
-Node 5fa changed parent 1 times
-Node 750 changed parent 1 times
-Node 114 changed parent 8 times
-Node 442 changed parent 4 times
-Node 8f2 changed parent 1 times
-Node a2e changed parent 1 times
-Node 302 changed parent 2 times
-Node 42a changed parent 9 times
-Node b3 changed parent 1 times
-Node 83b changed parent 1 times
-Node 30e changed parent 2 times
-Node a59 changed parent 1 times
-Node 614 changed parent 1 times
-Node ba7 changed parent 1 times
-Node 1d9 changed parent 5 times
-Node 337 changed parent 1 times
-Node 92b changed parent 1 times
-Node a24 changed parent 1 times
-Node 1bb changed parent 1 times
-Node 44e changed parent 1 times
-Node 218 changed parent 1 times
-Node 594 changed parent 1 times
-Node 3fa changed parent 19 times
-Node 956 changed parent 1 times
-Node 8cd changed parent 1 times
-Node aa0 changed parent 3 times
-Node 3f8 changed parent 7 times
-Node 3f3 changed parent 9 times
-Node 410 changed parent 4 times
-Node 416 changed parent 6 times
-Node 3e7 changed parent 7 times
-Node 420 changed parent 9 times
-Node 3de changed parent 10 times
-Node 414 changed parent 2 times
-Node 3bb changed parent 9 times
-Node b5d changed parent 2 times
-Node 31e changed parent 1 times
-Node 979 changed parent 7 times
-Node 2a6 changed parent 1 times
-Node ba5 changed parent 4 times
-Node b33 changed parent 5 times
-Node aad changed parent 3 times
-Node 36a changed parent 3 times
-Node a7b changed parent 6 times
-Node 3e0 changed parent 4 times
-Node 385 changed parent 4 times
-Node 378 changed parent 3 times
-Node b65 changed parent 6 times
-Node 38c changed parent 4 times
-Node 39f changed parent 21 times
-Node 3db changed parent 6 times
-Node ac8 changed parent 4 times
-Node 201 changed parent 6 times
-Node 3ca changed parent 7 times
-Node b29 changed parent 4 times
-Node bae changed parent 3 times
-Node 3b1 changed parent 3 times
-Node b6c changed parent 3 times
-Node 36e changed parent 4 times
-Node 3c3 changed parent 4 times
-Node 3d8 changed parent 2 times
-Node 3bf changed parent 13 times
-Node 3bd changed parent 15 times
-Node 3c7 changed parent 7 times
-Node 3c5 changed parent 13 times
-Node 3ea changed parent 28 times
+node,count,hour
+,915,00h
+315,002,00h
+3A3,023,00h
+418,005,00h
+3BC,010,00h
+3DF,003,00h
+400,008,00h
+419,007,00h
+3AF,005,00h
+41A,005,00h
+39B,004,00h
+3A0,004,00h
+3ED,002,00h
+406,019,00h
+3FF,006,00h
+3B4,005,00h
+3C6,009,00h
+3E9,005,00h
+417,005,00h
+3A2,007,00h
+78D,001,00h
+B89,002,00h
+3AC,021,00h
+41D,016,00h
+415,016,00h
+405,009,00h
+404,005,00h
+3A5,002,00h
+396,002,00h
+421,006,00h
+3FD,020,00h
+B0A,004,00h
+3EE,024,00h
+675,002,00h
+3C1,013,00h
+A97,002,00h
+3FC,012,00h
+509,001,00h
+484,014,00h
+3E4,007,00h
+425,010,00h
+AB3,002,00h
+3B9,009,00h
+8A,001,00h
+3A4,015,00h
+449,011,00h
+ACB,008,00h
+40D,019,00h
+422,002,00h
+411,018,00h
+402,007,00h
+41F,002,00h
+407,006,00h
+3B2,008,00h
+441,003,00h
+475,010,00h
+431,002,00h
+434,010,00h
+429,011,00h
+439,005,00h
+448,016,00h
+AA5,004,00h
+37C,002,00h
+AB6,007,00h
+A26,003,00h
+3D1,014,00h
+408,007,00h
+3B0,004,00h
+7D2,001,00h
+2A0,001,00h
+939,002,00h
+17C,001,00h
+31B,001,00h
+9C3,007,00h
+2B3,002,00h
+B3B,001,00h
+A47,002,00h
+7E2,001,00h
+A67,005,00h
+8A8,002,00h
+3B3,007,00h
+88F,001,00h
+73A,001,00h
+18D,001,00h
+899,001,00h
+799,001,00h
+920,003,00h
+4E3,002,00h
+54A,010,00h
+A6B,002,00h
+2AC,005,00h
+9DB,003,00h
+9FC,002,00h
+35,014,00h
+3F4,004,00h
+438,008,00h
+A9D,002,00h
+A8F,006,00h
+739,001,00h
+4F1,001,00h
+447,007,00h
+64F,002,00h
+7E0,001,00h
+A8C,004,00h
+446,005,00h
+456,003,00h
+A96,008,00h
+42B,003,00h
+A78,002,00h
+204,011,00h
+3F0,004,00h
+A5D,001,00h
+A98,005,00h
+299,006,00h
+BB7,001,00h
+A84,003,00h
+70A,002,00h
+95C,012,00h
+498,001,00h
+95F,001,00h
+515,002,00h
+63D,001,00h
+3EC,001,00h
+40B,001,00h
+43C,011,00h
+427,001,00h
+40A,002,00h
+423,006,00h
+46B,003,00h
+A92,001,00h
+7B8,008,00h
+234,001,00h
+A07,001,00h
+ABA,001,00h
+A9E,001,00h
+959,001,00h
+AF8,001,00h
+2C1,001,00h
+AF3,001,00h
+338,001,00h
+A02,001,00h
+ACF,003,00h
+B12,002,00h
+AE3,002,00h
+B11,005,00h
+AD1,005,00h
+AF7,010,00h
+B34,005,00h
+AE1,002,00h
+B16,001,00h
+AE9,003,00h
+B40,003,00h
+B13,002,00h
+B1D,003,00h
+B20,002,00h
+AB8,004,00h
+AD3,001,00h
+B46,001,00h
+AC3,002,00h
+AEB,003,00h
+B07,003,00h
+B70,001,00h
+AE7,001,00h
+B4B,001,00h
+B58,003,00h
+B60,001,00h
+B1F,002,00h
+ABB,005,00h
+B21,002,00h
+46F,006,00h
+A6A,004,00h
+AEE,003,00h
+B41,003,00h
+AC1,003,00h
+B1E,006,00h
+AC2,004,00h
+761,001,00h
+AB9,003,00h
+116,002,00h
+A9B,002,00h
+B0D,001,00h
+AD0,003,00h
+ACE,002,00h
+AD9,002,00h
+8FF,001,00h
+AA2,004,00h
+A93,002,00h
+7FB,002,00h
+AEA,001,00h
+B0E,001,00h
+B45,002,00h
+AD5,002,00h
+256,006,00h
+800,001,00h
+5B2,001,00h
+91C,001,00h
+B9D,001,00h
+B54,001,00h
+8EE,001,00h
+B51,001,00h
+6AE,001,00h
+661,001,00h
+A73,001,00h
+9D1,001,00h
+255,001,00h
+,052,01h
+45E,002,01h
+ABE,003,01h
+5C8,002,01h
+4F3,002,01h
+348,002,01h
+B75,001,01h
+B78,001,01h
+612,001,01h
+AA1,001,01h
+B10,001,01h
+B25,002,01h
+D0,001,01h
+B4A,002,01h
+B43,002,01h
+16D,001,01h
+2BC,001,01h
+6A6,010,01h
+62D,001,01h
+112,001,01h
+B57,001,01h
+B6E,001,01h
+AD2,001,01h
+B48,001,01h
+B23,001,01h
+B64,001,01h
+443,005,01h
+A4B,001,01h
+A8D,001,01h
+145,001,01h
+A77,001,01h
+,017,02h
+88A,001,02h
+6AB,001,02h
+154,001,02h
+25E,007,02h
+B74,001,02h
+890,001,02h
+53C,002,02h
+9DE,003,02h
+,019,03h
+AC9,001,03h
+A6F,006,03h
+AA7,001,03h
+B08,003,03h
+A85,001,03h
+ABC,001,03h
+5EF,001,03h
+5AA,001,03h
+E4,002,03h
+11B,001,03h
+654,001,03h
+,008,04h
+603,001,04h
+13A,005,04h
+3D9,001,04h
+697,001,04h
+,003,05h
+38D,001,05h
+9B9,001,05h
+A2,001,05h
+,023,06h
+522,001,06h
+B1C,001,06h
+76D,002,06h
+3CB,001,06h
+1D3,001,06h
+595,001,06h
+48E,001,06h
+952,001,06h
+11A,001,06h
+4F8,001,06h
+130,001,06h
+632,001,06h
+81A,001,06h
+76F,001,06h
+537,001,06h
+6F3,002,06h
+608,001,06h
+4BC,002,06h
+84A,001,06h
+C2,001,06h
+,001,07h
+2C6,001,07h
+,002,08h
+128,001,08h
+731,001,08h
+,000,09h
+,000,10h
+,000,11h
+,000,12h
+,000,13h
+,000,14h
+,000,15h
+,000,16h
+,000,17h
+,000,18h
+,000,19h
+,796,20h
+50,002,20h
+C8,001,20h
+214,001,20h
+240,007,20h
+850,001,20h
+8FA,015,20h
+A0C,002,20h
+1B5,035,20h
+4AB,001,20h
+261,009,20h
+604,001,20h
+1B1,003,20h
+5DB,002,20h
+2E5,002,20h
+166,007,20h
+668,003,20h
+9B8,001,20h
+8D4,006,20h
+289,004,20h
+2DF,004,20h
+2FA,016,20h
+285,011,20h
+623,012,20h
+809,001,20h
+43,002,20h
+78F,010,20h
+369,004,20h
+296,003,20h
+673,001,20h
+370,015,20h
+83C,007,20h
+9AA,001,20h
+922,003,20h
+91D,004,20h
+1B3,011,20h
+D4,002,20h
+77E,011,20h
+316,002,20h
+987,001,20h
+9DA,002,20h
+273,002,20h
+B8F,002,20h
+812,002,20h
+93C,007,20h
+290,001,20h
+2BF,006,20h
+239,002,20h
+18B,007,20h
+7D5,012,20h
+260,002,20h
+A7C,001,20h
+B86,003,20h
+5E9,002,20h
+118,011,20h
+5B7,003,20h
+2B2,001,20h
+671,001,20h
+7AE,001,20h
+9FB,007,20h
+3E6,011,20h
+D2,001,20h
+20C,001,20h
+67D,002,20h
+3A8,002,20h
+2D7,001,20h
+9A6,005,20h
+393,021,20h
+6D3,011,20h
+695,005,20h
+210,003,20h
+37F,020,20h
+2FC,001,20h
+17A,031,20h
+1E3,011,20h
+AEF,007,20h
+54B,006,20h
+904,001,20h
+BD,001,20h
+61F,001,20h
+8CB,013,20h
+741,005,20h
+1C4,002,20h
+31A,003,20h
+9F5,003,20h
+144,048,20h
+925,002,20h
+844,001,20h
+8E,004,20h
+748,025,20h
+7E3,007,20h
+7A8,001,20h
+37,002,20h
+180,028,20h
+8DF,001,20h
+A54,001,20h
+27F,002,20h
+506,001,20h
+35A,001,20h
+689,005,20h
+18E,001,20h
+26A,001,20h
+12A,003,20h
+919,003,20h
+A1E,003,20h
+7AC,005,20h
+634,004,20h
+A7F,003,20h
+B30,002,20h
+6D7,001,20h
+A88,002,20h
+5BF,001,20h
+B9E,005,20h
+65B,002,20h
+74F,003,20h
+189,004,20h
+711,001,20h
+43E,001,20h
+4AD,002,20h
+814,001,20h
+B94,003,20h
+738,003,20h
+7CD,001,20h
+9E4,003,20h
+2AA,007,20h
+541,003,20h
+BB,003,20h
+57D,003,20h
+9BD,001,20h
+1A8,001,20h
+93,004,20h
+232,006,20h
+25D,002,20h
+33C,001,20h
+2E7,008,20h
+846,001,20h
+307,001,20h
+3FB,002,20h
+66,001,20h
+51C,002,20h
+704,002,20h
+181,003,20h
+9E,001,20h
+540,002,20h
+555,002,20h
+11D,034,20h
+6A,007,20h
+48F,001,20h
+332,001,20h
+162,005,20h
+7D,003,20h
+CA,003,20h
+13C,016,20h
+740,001,20h
+9B5,002,20h
+861,001,20h
+59B,002,20h
+4F2,001,20h
+85C,003,20h
+4AE,001,20h
+7D8,001,20h
+950,001,20h
+2E,003,20h
+,1395,21h
+507,002,21h
+652,002,21h
+8C6,001,21h
+61E,001,21h
+1B,001,21h
+705,002,21h
+5F1,001,21h
+734,001,21h
+237,003,21h
+A03,003,21h
+361,027,21h
+8E1,003,21h
+97B,003,21h
+4E0,001,21h
+868,002,21h
+13E,001,21h
+885,015,21h
+886,002,21h
+BB8,022,21h
+A,001,21h
+803,003,21h
+2F5,019,21h
+101,001,21h
+70B,002,21h
+1B0,002,21h
+7D4,005,21h
+660,002,21h
+18F,004,21h
+933,002,21h
+1A6,001,21h
+8A0,001,21h
+3AB,001,21h
+833,001,21h
+2CF,002,21h
+2D5,001,21h
+206,006,21h
+988,017,21h
+75B,002,21h
+8D,001,21h
+3A1,003,21h
+6D8,001,21h
+706,001,21h
+B7D,001,21h
+A6C,001,21h
+2B,001,21h
+1A7,003,21h
+ACA,003,21h
+196,006,21h
+3D6,001,21h
+2BA,001,21h
+115,003,21h
+6B0,001,21h
+6A5,001,21h
+1A2,006,21h
+A08,003,21h
+2D4,009,21h
+8BF,013,21h
+14A,001,21h
+68E,002,21h
+954,001,21h
+8A3,001,21h
+176,005,21h
+8D8,001,21h
+24,001,21h
+4DE,001,21h
+34A,001,21h
+4B4,001,21h
+A17,001,21h
+1AD,001,21h
+9B4,003,21h
+845,001,21h
+11E,001,21h
+871,003,21h
+25C,001,21h
+6F7,001,21h
+8BC,002,21h
+27,003,21h
+4FF,002,21h
+2CD,003,21h
+51E,002,21h
+613,001,21h
+3C,001,21h
+135,002,21h
+4C0,002,21h
+281,003,21h
+1BE,002,21h
+A64,002,21h
+BA,003,21h
+1C9,008,21h
+75D,002,21h
+D3,003,21h
+97F,002,21h
+1DA,010,21h
+372,003,21h
+4,001,21h
+650,001,21h
+8D9,006,21h
+562,001,21h
+312,020,21h
+68F,002,21h
+949,003,21h
+559,022,21h
+914,002,21h
+BAB,006,21h
+1B4,003,21h
+B8C,001,21h
+9A7,001,21h
+A89,001,21h
+7F,006,21h
+7A9,001,21h
+156,001,21h
+587,001,21h
+6C4,003,21h
+4E9,002,21h
+7A6,001,21h
+364,001,21h
+257,001,21h
+21D,001,21h
+676,002,21h
+609,010,21h
+33D,005,21h
+A16,001,21h
+1B6,005,21h
+68D,003,21h
+8DE,012,21h
+843,002,21h
+B80,002,21h
+1E9,003,21h
+371,002,21h
+7DB,002,21h
+7A1,001,21h
+5CB,001,21h
+32,002,21h
+21,003,21h
+725,002,21h
+40,003,21h
+254,004,21h
+152,001,21h
+A11,001,21h
+718,001,21h
+667,001,21h
+172,022,21h
+D5,009,21h
+ABD,005,21h
+501,001,21h
+75F,001,21h
+72B,001,21h
+820,005,21h
+5D0,002,21h
+9C8,001,21h
+249,002,21h
+A20,002,21h
+23,004,21h
+F9,011,21h
+451,001,21h
+8C9,001,21h
+47C,002,21h
+BAC,010,21h
+698,009,21h
+2A3,001,21h
+4FB,001,21h
+9C4,001,21h
+335,002,21h
+6A3,002,21h
+2B7,013,21h
+161,007,21h
+830,001,21h
+591,004,21h
+B09,005,21h
+8A1,001,21h
+53A,002,21h
+677,001,21h
+15D,007,21h
+5C0,001,21h
+87A,005,21h
+E7,004,21h
+29,041,21h
+991,001,21h
+151,001,21h
+9CC,001,21h
+681,001,21h
+7F6,002,21h
+6F8,001,21h
+77F,005,21h
+955,004,21h
+621,001,21h
+2C,002,21h
+A14,002,21h
+8ED,005,21h
+B5,002,21h
+322,001,21h
+33F,002,21h
+996,002,21h
+25A,001,21h
+2E2,002,21h
+8EA,002,21h
+1C8,001,21h
+373,012,21h
+917,001,21h
+9DD,003,21h
+5E,006,21h
+188,001,21h
+927,031,21h
+356,018,21h
+6C2,002,21h
+643,001,21h
+937,002,21h
+A80,001,21h
+4D4,002,21h
+638,004,21h
+435,001,21h
+85A,001,21h
+6AC,002,21h
+1A4,002,21h
+2A5,004,21h
+872,001,21h
+71A,007,21h
+6FF,002,21h
+1C2,008,21h
+B2C,004,21h
+971,009,21h
+69D,004,21h
+BB1,004,21h
+1DC,001,21h
+B9C,012,21h
+662,001,21h
+B9B,001,21h
+A5A,008,21h
+5F6,002,21h
+982,002,21h
+298,003,21h
+B7B,004,21h
+2C7,005,21h
+233,001,21h
+35F,014,21h
+593,002,21h
+384,029,21h
+68A,004,21h
+BA6,001,21h
+1E0,003,21h
+A3C,002,21h
+736,001,21h
+B63,001,21h
+216,002,21h
+6BE,001,21h
+2F9,001,21h
+27B,004,21h
+297,001,21h
+ACC,002,21h
+663,008,21h
+213,002,21h
+10,004,21h
+729,001,21h
+753,004,21h
+B9A,001,21h
+616,009,21h
+6A2,005,21h
+228,001,21h
+B32,001,21h
+550,002,21h
+963,002,21h
+518,008,21h
+B01,001,21h
+353,004,21h
+B87,008,21h
+EC,001,21h
+610,010,21h
+831,002,21h
+61A,001,21h
+82D,006,21h
+55A,005,21h
+B6F,010,21h
+72A,003,21h
+91,003,21h
+105,001,21h
+7CA,001,21h
+131,001,21h
+788,002,21h
+8B7,001,21h
+966,001,21h
+63A,008,21h
+81F,001,21h
+58D,002,21h
+6D0,001,21h
+852,002,21h
+52A,003,21h
+74,004,21h
+7C,001,21h
+528,003,21h
+994,001,21h
+3F2,003,21h
+8F,013,21h
+747,003,21h
+897,001,21h
+351,001,21h
+714,001,21h
+8DD,002,21h
+770,001,21h
+502,002,21h
+A52,002,21h
+381,001,21h
+7B0,002,21h
+84E,001,21h
+579,001,21h
+BAF,012,21h
+819,002,21h
+2B1,002,21h
+A82,001,21h
+6EA,001,21h
+678,004,21h
+972,001,21h
+780,007,21h
+AD8,013,21h
+1E,002,21h
+18,003,21h
+624,002,21h
+8AC,001,21h
+9CF,001,21h
+39E,001,21h
+6ED,001,21h
+CD,004,21h
+383,008,21h
+363,001,21h
+99D,005,21h
+6E9,002,21h
+79E,002,21h
+3E3,004,21h
+A2C,004,21h
+611,002,21h
+9FF,001,21h
+52E,007,21h
+1D5,001,21h
+85E,002,21h
+B92,008,21h
+10C,002,21h
+8CE,003,21h
+2B6,001,21h
+742,003,21h
+A71,001,21h
+92A,002,21h
+7EF,001,21h
+4C3,017,21h
+88,003,21h
+314,002,21h
+263,001,21h
+376,015,21h
+75C,003,21h
+516,004,21h
+49,006,21h
+2FE,033,21h
+B39,001,21h
+798,011,21h
+61C,004,21h
+A25,001,21h
+59A,004,21h
+1DE,001,21h
+48D,009,21h
+310,003,21h
+93B,001,21h
+186,002,21h
+3E2,003,21h
+33A,002,21h
+39,001,21h
+DC,005,21h
+92C,002,21h
+862,002,21h
+5E3,002,21h
+6F2,002,21h
+A4,001,21h
+37E,013,21h
+3B,001,21h
+821,002,21h
+2A2,004,21h
+946,006,21h
+7DF,002,21h
+D,001,21h
+86B,005,21h
+,1565,22h
+88C,002,22h
+53F,001,22h
+553,002,22h
+9BB,001,22h
+767,002,22h
+17F,002,22h
+71C,001,22h
+824,001,22h
+7C9,001,22h
+67B,003,22h
+54C,011,22h
+889,002,22h
+7A,004,22h
+7D1,002,22h
+345,002,22h
+ADC,006,22h
+5C4,002,22h
+781,001,22h
+4BB,017,22h
+B6D,004,22h
+4D,001,22h
+BA4,002,22h
+4CF,001,22h
+1A1,003,22h
+94,005,22h
+5EE,001,22h
+5D5,008,22h
+D6,001,22h
+29E,001,22h
+30,001,22h
+836,002,22h
+330,001,22h
+477,002,22h
+21F,003,22h
+7AF,003,22h
+A4D,001,22h
+76C,001,22h
+1C3,001,22h
+10F,001,22h
+ADE,001,22h
+8B5,001,22h
+B8,001,22h
+5AD,009,22h
+202,001,22h
+701,001,22h
+9E6,006,22h
+80E,002,22h
+91B,001,22h
+67,001,22h
+B7F,001,22h
+B84,001,22h
+AC6,004,22h
+262,001,22h
+17B,004,22h
+8BB,001,22h
+957,003,22h
+607,005,22h
+99E,001,22h
+A45,001,22h
+192,009,22h
+66E,004,22h
+5CE,003,22h
+5EC,007,22h
+85D,002,22h
+211,001,22h
+22,001,22h
+869,002,22h
+12,002,22h
+A09,001,22h
+B38,001,22h
+5FC,002,22h
+713,001,22h
+687,004,22h
+AE0,008,22h
+712,001,22h
+1EA,003,22h
+749,004,22h
+1A3,001,22h
+81E,001,22h
+28D,001,22h
+F4,001,22h
+5BB,001,22h
+275,001,22h
+8A7,001,22h
+334,001,22h
+8CA,001,22h
+FC,001,22h
+380,021,22h
+908,002,22h
+A70,001,22h
+DA,001,22h
+948,001,22h
+3C0,014,22h
+69C,006,22h
+622,002,22h
+AB4,006,22h
+132,001,22h
+106,001,22h
+841,001,22h
+6BB,003,22h
+3D2,015,22h
+74B,001,22h
+36,002,22h
+244,001,22h
+9F7,001,22h
+2A8,002,22h
+280,002,22h
+A2F,001,22h
+30B,001,22h
+4A5,002,22h
+9B6,001,22h
+625,003,22h
+B8E,007,22h
+8C0,001,22h
+134,002,22h
+1E7,001,22h
+B5F,013,22h
+976,009,22h
+5CF,001,22h
+B1A,003,22h
+1BC,004,22h
+282,001,22h
+3F5,020,22h
+6AF,001,22h
+859,001,22h
+4CA,002,22h
+A0,002,22h
+62,002,22h
+278,001,22h
+34,001,22h
+526,001,22h
+70F,001,22h
+864,004,22h
+5F8,003,22h
+7D3,001,22h
+21A,003,22h
+5FD,014,22h
+BAD,005,22h
+4A2,001,22h
+BA0,009,22h
+778,001,22h
+4A4,001,22h
+155,005,22h
+24A,001,22h
+A81,002,22h
+9B7,001,22h
+983,004,22h
+1F,003,22h
+853,002,22h
+5C6,002,22h
+AC5,001,22h
+816,001,22h
+1AC,002,22h
+5DA,001,22h
+A6E,001,22h
+171,004,22h
+4BE,003,22h
+7F3,002,22h
+8A5,002,22h
+759,001,22h
+8F4,001,22h
+797,001,22h
+7AA,001,22h
+B8A,005,22h
+341,001,22h
+1CB,001,22h
+82,002,22h
+6CE,004,22h
+FE,001,22h
+659,001,22h
+930,002,22h
+645,001,22h
+804,002,22h
+B91,005,22h
+AD4,001,22h
+787,002,22h
+21E,001,22h
+9C0,002,22h
+8F9,001,22h
+27A,011,22h
+168,001,22h
+28E,002,22h
+9F1,003,22h
+4FC,001,22h
+525,001,22h
+690,001,22h
+30A,001,22h
+835,001,22h
+9D2,001,22h
+619,001,22h
+C,002,22h
+89C,002,22h
+5E2,005,22h
+A38,001,22h
+32B,004,22h
+62E,001,22h
+16E,001,22h
+943,001,22h
+858,001,22h
+AB2,001,22h
+A23,001,22h
+2AB,001,22h
+266,001,22h
+5B5,001,22h
+7,007,22h
+867,007,22h
+4C4,001,22h
+9BC,001,22h
+AA,001,22h
+6E5,001,22h
+253,001,22h
+6E1,001,22h
+6B2,002,22h
+9C6,006,22h
+657,003,22h
+3A6,005,22h
+386,006,22h
+8E5,003,22h
+3A7,008,22h
+123,001,22h
+269,001,22h
+15F,001,22h
+873,007,22h
+B3A,022,22h
+217,007,22h
+9,002,22h
+92F,001,22h
+60D,003,22h
+68B,001,22h
+81,001,22h
+1D,001,22h
+268,001,22h
+989,004,22h
+C4,001,22h
+77B,001,22h
+306,014,22h
+6A0,001,22h
+9ED,001,22h
+50A,001,22h
+352,004,22h
+921,001,22h
+530,001,22h
+B93,011,22h
+2EA,004,22h
+26F,003,22h
+1DB,002,22h
+B2D,003,22h
+60E,003,22h
+1A9,001,22h
+13F,001,22h
+874,001,22h
+3DC,011,22h
+2D0,015,22h
+490,006,22h
+32F,010,22h
+2E3,002,22h
+387,002,22h
+792,011,22h
+B85,005,22h
+333,010,22h
+6E8,009,22h
+7FA,002,22h
+1FC,006,22h
+6D2,003,22h
+A1B,021,22h
+686,002,22h
+9A5,001,22h
+4A8,001,22h
+2D9,001,22h
+2EF,001,22h
+B79,001,22h
+146,011,22h
+2DC,001,22h
+203,001,22h
+295,002,22h
+2E1,001,22h
+29B,001,22h
+19A,001,22h
+2C0,013,22h
+1DD,001,22h
+137,001,22h
+B1,002,22h
+76B,001,22h
+15C,001,22h
+8DA,003,22h
+179,001,22h
+926,001,22h
+B2E,019,22h
+65C,001,22h
+9FA,001,22h
+357,009,22h
+2ED,001,22h
+2BB,002,22h
+6C5,018,22h
+A4E,006,22h
+633,001,22h
+66C,004,22h
+560,005,22h
+25,012,22h
+437,001,22h
+90A,003,22h
+3EB,002,22h
+3B8,010,22h
+5A4,001,22h
+129,009,22h
+5E0,008,22h
+1CE,001,22h
+35B,001,22h
+B2F,001,22h
+12F,002,22h
+2B9,001,22h
+55D,001,22h
+74C,001,22h
+38A,006,22h
+2BE,001,22h
+69A,002,22h
+3B7,001,22h
+4B0,003,22h
+615,001,22h
+350,001,22h
+1CA,001,22h
+1C7,002,22h
+B05,001,22h
+291,001,22h
+2CE,001,22h
+A41,001,22h
+5FF,001,22h
+30D,001,22h
+324,004,22h
+76E,001,22h
+BA8,027,22h
+539,001,22h
+2AF,002,22h
+391,006,22h
+728,001,22h
+3BA,005,22h
+1D2,001,22h
+5CC,001,22h
+B50,009,22h
+B73,010,22h
+399,001,22h
+BB3,011,22h
+22B,001,22h
+1E5,001,22h
+7B1,001,22h
+71D,001,22h
+703,001,22h
+74A,001,22h
+53B,004,22h
+6EF,001,22h
+B71,001,22h
+209,002,22h
+20D,001,22h
+2F0,007,22h
+902,003,22h
+395,022,22h
+12D,007,22h
+7A0,001,22h
+A50,001,22h
+35E,004,22h
+AE,002,22h
+27E,002,22h
+2A7,014,22h
+B37,010,22h
+274,001,22h
+510,001,22h
+65,010,22h
+829,002,22h
+766,003,22h
+77D,001,22h
+8EB,012,22h
+6E,002,22h
+3C4,018,22h
+10B,011,22h
+929,013,22h
+52B,001,22h
+569,001,22h
+782,006,22h
+2E4,002,22h
+142,003,22h
+5C,002,22h
+82E,002,22h
+AB0,008,22h
+A49,005,22h
+B98,004,22h
+618,001,22h
+23C,007,22h
+183,014,22h
+300,003,22h
+7F9,003,22h
+AC4,013,22h
+699,004,22h
+7EB,004,22h
+A83,017,22h
+78,003,22h
+327,001,22h
+89A,001,22h
+28F,001,22h
+717,003,22h
+B3C,002,22h
+398,007,22h
+A40,002,22h
+16F,001,22h
+24C,001,22h
+31F,004,22h
+7D9,008,22h
+73F,001,22h
+A69,001,22h
+BA9,004,22h
+25B,002,22h
+16B,001,22h
+A53,011,22h
+8B0,001,22h
+5D3,002,22h
+6B8,002,22h
+C9,001,22h
+8C8,001,22h
+B02,006,22h
+776,002,22h
+B59,011,22h
+B90,006,22h
+5ED,002,22h
+A4A,001,22h
+C6,002,22h
+786,001,22h
+4CD,001,22h
+5B1,004,22h
+245,003,22h
+4E7,001,22h
+6B9,007,22h
+DD,003,22h
+3D,004,22h
+3CE,004,22h
+2A9,001,22h
+A0E,004,22h
+A95,005,22h
+9EB,012,22h
+1F5,002,22h
+7BD,001,22h
+E2,007,22h
+55,001,22h
+B7C,007,22h
+4C6,001,22h
+221,001,22h
+EF,003,22h
+2AE,001,22h
+4F9,001,22h
+29F,002,22h
+94C,001,22h
+379,007,22h
+14,004,22h
+F8,001,22h
+3B6,005,22h
+B81,001,22h
+B83,005,22h
+4B7,002,22h
+9BE,007,22h
+7C4,001,22h
+5A1,001,22h
+9EC,004,22h
+801,003,22h
+,1706,23h
+5B3,002,23h
+294,001,23h
+A8A,001,23h
+2F7,004,23h
+1BD,001,23h
+325,003,23h
+BB5,005,23h
+6DC,005,23h
+1D4,001,23h
+2A1,001,23h
+3FE,019,23h
+BB0,003,23h
+39A,010,23h
+31D,001,23h
+62A,005,23h
+3F7,018,23h
+67C,001,23h
+666,001,23h
+5F0,001,23h
+9F2,004,23h
+4F4,006,23h
+727,001,23h
+41B,022,23h
+39C,006,23h
+2FD,009,23h
+190,001,23h
+409,019,23h
+3AA,014,23h
+6D4,001,23h
+887,007,23h
+B95,004,23h
+390,007,23h
+1F8,001,23h
+B5E,006,23h
+AAF,005,23h
+A48,001,23h
+2C8,001,23h
+66D,001,23h
+394,008,23h
+2FF,007,23h
+62C,001,23h
+347,007,23h
+38E,006,23h
+998,001,23h
+636,001,23h
+7B5,002,23h
+309,001,23h
+6CD,002,23h
+B26,001,23h
+3C2,009,23h
+A0B,001,23h
+2CB,001,23h
+3E5,014,23h
+6E4,004,23h
+3E1,023,23h
+8E4,014,23h
+6F4,004,23h
+1F1,004,23h
+637,001,23h
+426,015,23h
+397,007,23h
+684,001,23h
+552,001,23h
+36C,001,23h
+436,016,23h
+38,003,23h
+8F5,002,23h
+340,001,23h
+5E7,001,23h
+721,001,23h
+163,001,23h
+A2A,001,23h
+2D3,002,23h
+2B0,002,23h
+7F0,002,23h
+5A5,007,23h
+680,001,23h
+27D,001,23h
+A87,003,23h
+5E8,010,23h
+514,001,23h
+73B,001,23h
+2C4,007,23h
+96B,001,23h
+2A4,002,23h
+44B,015,23h
+96F,001,23h
+7C0,002,23h
+93A,002,23h
+9E9,004,23h
+42C,003,23h
+640,002,23h
+9D6,001,23h
+AB1,003,23h
+826,001,23h
+56B,003,23h
+764,002,23h
+5D7,002,23h
+2B4,001,23h
+63,001,23h
+1C0,001,23h
+32C,003,23h
+1D1,002,23h
+960,004,23h
+7D0,001,23h
+F3,012,23h
+B99,004,23h
+2DE,011,23h
+318,002,23h
+958,003,23h
+993,003,23h
+BB2,005,23h
+688,006,23h
+25F,001,23h
+B7A,001,23h
+3BE,005,23h
+2F1,001,23h
+354,006,23h
+ABF,001,23h
+2E9,006,23h
+642,001,23h
+5F4,001,23h
+2F3,004,23h
+6CA,004,23h
+6E6,002,23h
+658,001,23h
+5F9,001,23h
+346,004,23h
+A5C,009,23h
+1F2,008,23h
+38F,027,23h
+2D2,013,23h
+FF,004,23h
+7DC,001,23h
+9FD,001,23h
+197,001,23h
+679,002,23h
+B8D,008,23h
+5C1,002,23h
+8FB,001,23h
+B96,004,23h
+44A,010,23h
+413,007,23h
+726,001,23h
+9A0,001,23h
+BA1,004,23h
+5A0,001,23h
+432,013,23h
+7E6,001,23h
+5AE,001,23h
+789,001,23h
+2EE,010,23h
+2E0,007,23h
+85B,001,23h
+4F0,002,23h
+774,004,23h
+BB9,003,23h
+9AD,001,23h
+34C,001,23h
+7D6,014,23h
+24F,001,23h
+304,003,23h
+99B,002,23h
+813,002,23h
+492,001,23h
+1AF,001,23h
+620,001,23h
+440,008,23h
+992,003,23h
+4DC,001,23h
+43D,010,23h
+94B,001,23h
+71E,001,23h
+5E5,013,23h
+13B,001,23h
+247,014,23h
+664,002,23h
+635,001,23h
+7CB,002,23h
+838,003,23h
+444,002,23h
+37B,015,23h
+BB6,010,23h
+17D,001,23h
+BA2,008,23h
+FA,002,23h
+A44,002,23h
+3E8,009,23h
+50C,003,23h
+467,002,23h
+D1,017,23h
+893,001,23h
+98E,001,23h
+177,002,23h
+762,001,23h
+18C,002,23h
+2DA,001,23h
+A22,001,23h
+392,005,23h
+A3E,003,23h
+31C,002,23h
+173,001,23h
+909,002,23h
+1FE,001,23h
+6CF,001,23h
+17E,001,23h
+6FB,001,23h
+903,007,23h
+32A,003,23h
+B6B,005,23h
+59E,012,23h
+48B,001,23h
+CF,001,23h
+3EF,012,23h
+489,001,23h
+9E8,001,23h
+3D0,001,23h
+59F,002,23h
+7AB,002,23h
+375,005,23h
+7DE,002,23h
+500,002,23h
+7A7,001,23h
+41C,003,23h
+2C9,002,23h
+403,015,23h
+A46,001,23h
+70E,002,23h
+83A,002,23h
+39D,004,23h
+751,003,23h
+A9,001,23h
+7EC,003,23h
+401,010,23h
+40F,013,23h
+494,002,23h
+360,001,23h
+26E,001,23h
+124,002,23h
+362,001,23h
+19F,001,23h
+40E,009,23h
+7C1,001,23h
+65D,001,23h
+258,001,23h
+756,002,23h
+6FE,016,23h
+1F4,003,23h
+5BE,003,23h
+CC,002,23h
+19C,006,23h
+8AE,001,23h
+F7,001,23h
+4D3,002,23h
+564,003,23h
+15B,001,23h
+631,003,23h
+53,003,23h
+9A2,002,23h
+936,002,23h
+56D,001,23h
+45B,002,23h
+4D0,002,23h
+7F4,001,23h
+64E,001,23h
+E3,001,23h
+7B3,001,23h
+7BB,002,23h
+4D8,002,23h
+2DB,004,23h
+466,002,23h
+641,002,23h
+511,002,23h
+77C,001,23h
+8F3,002,23h
+9B0,001,23h
+43F,001,23h
+424,022,23h
+125,001,23h
+AAA,004,23h
+605,001,23h
+B17,002,23h
+1EF,007,23h
+1FB,002,23h
+961,001,23h
+505,001,23h
+855,001,23h
+321,001,23h
+7B6,002,23h
+571,002,23h
+305,003,23h
+83E,002,23h
+768,013,23h
+6C8,001,23h
+A5F,012,23h
+2E8,002,23h
+8D6,001,23h
+5CD,001,23h
+BAA,006,23h
+709,002,23h
+326,001,23h
+4C1,001,23h
+207,001,23h
+3F9,002,23h
+49D,001,23h
+6B1,001,23h
+32D,003,23h
+87E,001,23h
+42F,001,23h
+B97,008,23h
+3CD,005,23h
+649,001,23h
+840,001,23h
+524,001,23h
+598,001,23h
+A06,003,23h
+5B6,001,23h
+40C,008,23h
+5BC,001,23h
+8D3,001,23h
+656,002,23h
+89,001,23h
+A9C,013,23h
+ADF,006,23h
+567,004,23h
+6E0,001,23h
+99F,003,23h
+5F2,001,23h
+54E,001,23h
+63E,002,23h
+791,001,23h
+AB5,005,23h
+86F,001,23h
+6FD,001,23h
+412,018,23h
+72,001,23h
+428,008,23h
+B5A,002,23h
+445,015,23h
+3CF,002,23h
+14C,001,23h
+6A1,008,23h
+6F,001,23h
+720,001,23h
+B24,002,23h
+EE,001,23h
+BF,003,23h
+8DB,006,23h
+685,001,23h
+81D,001,23h
+A94,003,23h
+15E,001,23h
+8FD,008,23h
+50E,001,23h
+602,001,23h
+BB4,007,23h
+481,001,23h
+8B,002,23h
+737,001,23h
+815,002,23h
+3B5,003,23h
+978,001,23h
+3DD,009,23h
+97D,002,23h
+159,001,23h
+5FA,001,23h
+750,001,23h
+114,008,23h
+442,004,23h
+8F2,001,23h
+A2E,001,23h
+302,002,23h
+42A,009,23h
+B3,001,23h
+83B,001,23h
+30E,002,23h
+A59,001,23h
+614,001,23h
+BA7,001,23h
+1D9,005,23h
+337,001,23h
+92B,001,23h
+A24,001,23h
+1BB,001,23h
+44E,001,23h
+218,001,23h
+594,001,23h
+3FA,019,23h
+956,001,23h
+8CD,001,23h
+AA0,003,23h
+3F8,007,23h
+3F3,009,23h
+410,004,23h
+416,006,23h
+3E7,007,23h
+420,009,23h
+3DE,010,23h
+414,002,23h
+3BB,009,23h
+B5D,002,23h
+31E,001,23h
+979,007,23h
+2A6,001,23h
+BA5,004,23h
+B33,005,23h
+AAD,003,23h
+36A,003,23h
+A7B,006,23h
+3E0,004,23h
+385,004,23h
+378,003,23h
+B65,006,23h
+38C,004,23h
+39F,021,23h
+3DB,006,23h
+AC8,004,23h
+201,006,23h
+3CA,007,23h
+B29,004,23h
+BAE,003,23h
+3B1,003,23h
+B6C,003,23h
+36E,004,23h
+3C3,004,23h
+3D8,002,23h
+3BF,013,23h
+3BD,015,23h
+3C7,007,23h
+3C5,013,23h
+3EA,028,23h

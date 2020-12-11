@@ -93,99 +93,79 @@ namespace PingAll
         {
             try 
             {
-            Console.Clear();
-            Console.SetWindowSize(120, 30);
-            Header();
-            MenuLine("Serial Port selected: " + testCom.PortName.ToUpper());
-            MenuLine("Choose one of the following options:");
-            MenuLine(" 1 -> Get Nodes IP and Levels (RPL)");
-            MenuLine(" 2 -> Get Nodes MAC Adresses (RPL DHCPS)");
-            MenuLine(" 3 -> Ping a single node");
-            MenuLine(" 4 -> Ping all nodes");
-            MenuLine(" 5 -> Ping all nodes in a level");
-            MenuLine(" 6 -> Ping all nodes all levels in order - Crescent");
-            MenuLine(" 7 -> Ping all nodes all levels in order - Decrescent");
-            MenuLine(" 8 -> Get Nodes IP per level");
-            MenuLine(" 9 -> Get Nodes MAC per level");
-            MenuLine(" 0 -> Select Serial Port");
-            Header();
-            KeyLine();
-            switch (Console.ReadLine())
-            {
-                //Get Nodes IP and Levels (RPL)
-                case "1":
-                    int[] r = SetRepetition();
-                    for (int i = 0; i < r[0]; i++)
-                    {
-                        GetNodeInfo(node);
-                        PathUnweighted.GetTopology(node);
-                        if (r[0] - 1 > i)
+                Console.Clear();
+                Console.SetWindowSize(120, 30);
+                Header();
+                MenuLine("Serial Port selected: " + testCom.PortName.ToUpper());
+                MenuLine("Choose one of the following options:");
+                MenuLine(" 0 -> Select Serial Port");
+                MenuLine(" 1 -> Get Nodes IP and Levels (RPL)");
+                MenuLine(" 2 -> Get Nodes MAC Adresses (RPL DHCPS)");
+                MenuLine(" 3 -> Ping a single node");
+                MenuLine(" 4 -> Ping all nodes");
+                MenuLine(" 5 -> Ping all nodes in a level");
+                MenuLine(" 6 -> Ping all nodes all levels in order - Crescent");
+                MenuLine(" 7 -> Ping all nodes all levels in order - Decrescent");
+                MenuLine(" 8 -> Get Nodes IP per level");
+                MenuLine(" 9 -> Get Nodes MAC per level");
+                MenuLine(" 10 -> Get Next Push Time Table");
+                Header();
+                KeyLine();
+                switch (Console.ReadLine())
+                {
+                    //Get Nodes IP and Levels (RPL)
+                    case "1":
+                        int[] r = SetRepetition();
+                        for (int i = 0; i < r[0]; i++)
                         {
-                            WaitRep(r, i);
+                            GetNodeInfo(node);
+                            PathUnweighted.GetTopology(node);
+                            if (r[0] - 1 > i)
+                            {
+                                WaitRep(r, i);
+                            }
                         }
-                    }
-                    TaskFinished();
-                    return true;
-                //Get Nodes MAC Adresses (RPL DHCPS)
-                case "2":
-                    r = SetRepetition();
-                    for (int i = 0; i < r[0]; i++)
-                    {
-                        GetNodeInfo(node);
-                        PathUnweighted.GetTopology(node);
-                        GetMacInfo(dhcp6s);
-                        UpdateNodeMac(dhcp6s, node);
-                        if (r[0] - 1 > i)
+                        TaskFinished();
+                        return true;
+                    //Get Nodes MAC Adresses (RPL DHCPS)
+                    case "2":
+                        r = SetRepetition();
+                        for (int i = 0; i < r[0]; i++)
                         {
-                            WaitRep(r, i);
+                            GetNodeInfo(node);
+                            PathUnweighted.GetTopology(node);
+                            GetMacInfo(dhcp6s);
+                            UpdateNodeMac(dhcp6s, node);
+                            if (r[0] - 1 > i)
+                            {
+                                WaitRep(r, i);
+                            }
                         }
-                    }
-                    TaskFinished();
-                    return true;
+                        TaskFinished();
+                        return true;
 
-                //Ping a single node
-                case "3":
-                    string _ip = SetIP();
-                    int _count = SetCount();
-                    int _size = SetSize();
-                    int _timeout = SetTimeout();
-                    int _lenght = SetLength();
-                    r = SetRepetition();
-                    for (int i = 0; i < r[0]; i++)
-                    {
-                        GetNodeInfo(node);
-                        PathUnweighted.GetTopology(node);
-                        PingNode(node, _ip, _count, _size, _timeout, _lenght);
-                        if (r[0] - 1 > i)
+                    //Ping a single node
+                    case "3":
+                        string _ip = SetIP();
+                        int _count = SetCount();
+                        int _size = SetSize();
+                        int _timeout = SetTimeout();
+                        int _lenght = SetLength();
+                        r = SetRepetition();
+                        for (int i = 0; i < r[0]; i++)
                         {
-                            WaitRep(r, i);
+                            GetNodeInfo(node);
+                            PathUnweighted.GetTopology(node);
+                            PingNode(node, _ip, _count, _size, _timeout, _lenght);
+                            if (r[0] - 1 > i)
+                            {
+                                WaitRep(r, i);
+                            }
                         }
-                    }
-                    TaskFinished();
-                    return true;
-                //Ping all nodes
-                case "4":
-                    _count = SetCount();
-                    _size = SetSize();
-                    _timeout = SetTimeout();
-                    _lenght = SetLength();
-                    r = SetRepetition();
-                    for (int i = 0; i < r[0]; i++)
-                    {
-                        GetNodeInfo(node);
-                        PathUnweighted.GetTopology(node);
-                        PingAllNodes(node, _count, _size, _timeout, _lenght);
-                        if (r[0] - 1 > i)
-                        {
-                            WaitRep(r, i);
-                        }
-                    }
-                    TaskFinished();
-                    return true;
-                //Ping all nodes in a level
-                case "5":
-                        int _lvl;
-                        _lvl = SetLevel();
+                        TaskFinished();
+                        return true;
+                    //Ping all nodes
+                    case "4":
                         _count = SetCount();
                         _size = SetSize();
                         _timeout = SetTimeout();
@@ -195,92 +175,118 @@ namespace PingAll
                         {
                             GetNodeInfo(node);
                             PathUnweighted.GetTopology(node);
-                            PingAllNodes(node, _count, _size, _timeout, _lenght, _lvl);
+                            PingAllNodes(node, _count, _size, _timeout, _lenght);
                             if (r[0] - 1 > i)
                             {
                                 WaitRep(r, i);
                             }
                         }
-                    TaskFinished();
-                    return true;
-                //Ping all nodes all levels - Crescent
-                case "6":
-                    _count = SetCount();
-                    _size = SetSize();
-                    _timeout = SetTimeout();
-                        _lenght = SetLength();
+                        TaskFinished();
+                        return true;
+                    //Ping all nodes in a level
+                    case "5":
+                            int _lvl;
+                            _lvl = SetLevel();
+                            _count = SetCount();
+                            _size = SetSize();
+                            _timeout = SetTimeout();
+                            _lenght = SetLength();
+                            r = SetRepetition();
+                            for (int i = 0; i < r[0]; i++)
+                            {
+                                GetNodeInfo(node);
+                                PathUnweighted.GetTopology(node);
+                                PingAllNodes(node, _count, _size, _timeout, _lenght, _lvl);
+                                if (r[0] - 1 > i)
+                                {
+                                    WaitRep(r, i);
+                                }
+                            }
+                        TaskFinished();
+                        return true;
+                    //Ping all nodes all levels - Crescent
+                    case "6":
+                        _count = SetCount();
+                        _size = SetSize();
+                        _timeout = SetTimeout();
+                            _lenght = SetLength();
+                            r = SetRepetition();
+                        for (int i = 0; i < r[0]; i++)
+                        {
+                            GetNodeInfo(node);
+                            PathUnweighted.GetTopology(node);
+                            PingAllLevels(node, _count, _size, _timeout, _lenght, true);
+                            if (r[0] - 1 > i)
+                            {
+                                WaitRep(r, i);
+                            }
+                        }
+                        TaskFinished();
+                        return true;
+                    //Ping all nodes all levels - Decrescent
+                    case "7":
+                        _count = SetCount();
+                        _size = SetSize();
+                        _timeout = SetTimeout();
+                            _lenght = SetLength();
+                            r = SetRepetition();
+                        for (int i = 0; i < r[0]; i++)
+                        {
+                            GetNodeInfo(node);
+                            PathUnweighted.GetTopology(node);
+                            PingAllLevels(node, _count, _size, _timeout, _lenght, false);
+                            if (r[0] - 1 > i)
+                            {
+                                WaitRep(r, i);
+                            }
+                        }
+                        TaskFinished();
+                        return true;
+                    //Get Nodes IP per level
+                    case "8":
+                        _lvl = SetLevel();
                         r = SetRepetition();
-                    for (int i = 0; i < r[0]; i++)
-                    {
-                        GetNodeInfo(node);
-                        PathUnweighted.GetTopology(node);
-                        PingAllLevels(node, _count, _size, _timeout, _lenght, true);
-                        if (r[0] - 1 > i)
+                        for (int i = 0; i < r[0]; i++)
                         {
-                            WaitRep(r, i);
+                            GetNodeInfo(node);
+                            PathUnweighted.GetTopology(node);
+                            NodePerLevel(node, _lvl, false);
+                            if (r[0] - 1 > i)
+                            {
+                                WaitRep(r, i);
+                            }
                         }
-                    }
-                    TaskFinished();
-                    return true;
-                //Ping all nodes all levels - Decrescent
-                case "7":
-                    _count = SetCount();
-                    _size = SetSize();
-                    _timeout = SetTimeout();
-                        _lenght = SetLength();
+                        TaskFinished();
+                        return true;
+                    //Get Nodes MAC per level
+                    case "9":
+                        _lvl = SetLevel();
                         r = SetRepetition();
-                    for (int i = 0; i < r[0]; i++)
-                    {
-                        GetNodeInfo(node);
-                        PathUnweighted.GetTopology(node);
-                        PingAllLevels(node, _count, _size, _timeout, _lenght, false);
-                        if (r[0] - 1 > i)
+                        for (int i = 0; i < r[0]; i++)
                         {
-                            WaitRep(r, i);
+                            GetNodeInfo(node);
+                            PathUnweighted.GetTopology(node);
+                            GetMacInfo(dhcp6s);
+                            UpdateNodeMac(dhcp6s, node);;
+                            NodePerLevel(node, _lvl, true);
+                            if (r[0] - 1 > i)
+                            {
+                                WaitRep(r, i);
+                            }
                         }
-                    }
-                    TaskFinished();
-                    return true;
-                //Get Nodes IP per level
-                case "8":
-                    _lvl = SetLevel();
-                    r = SetRepetition();
-                    for (int i = 0; i < r[0]; i++)
-                    {
-                        GetNodeInfo(node);
-                        PathUnweighted.GetTopology(node);
-                        NodePerLevel(node, _lvl, false);
-                        if (r[0] - 1 > i)
-                        {
-                            WaitRep(r, i);
-                        }
-                    }
-                    TaskFinished();
-                    return true;
-                //Get Nodes MAC per level
-                case "9":
-                    _lvl = SetLevel();
-                    r = SetRepetition();
-                    for (int i = 0; i < r[0]; i++)
-                    {
-                        GetNodeInfo(node);
-                        PathUnweighted.GetTopology(node);
-                        GetMacInfo(dhcp6s);
-                        UpdateNodeMac(dhcp6s, node);;
-                        NodePerLevel(node, _lvl, true);
-                        if (r[0] - 1 > i)
-                        {
-                            WaitRep(r, i);
-                        }
-                    }
-                    TaskFinished();
-                    return true;
-                //Select Serial Port
-                case "0":
-                    testCom.PortName = SetPortName("COM1");
-                    return true;
-                default:
-                    return true;
+                        TaskFinished();
+                        return true;
+                        //Get Nodes MAC per level
+                    case "10":
+                        GetNtpPush();
+                        TaskFinished();
+                        return true;
+                        //Select Serial Port
+                        case "0":
+                        testCom.PortName = SetPortName("COM1");
+                        return true;
+                        default:
+                        return true;
                 }
             }
             catch (Exception e)
@@ -790,11 +796,12 @@ namespace PingAll
             try
             {
                 int s = 0;
-                Regex regex = new Regex(@"\[[(?:[A-Fa-f0-9]{4} -> (?:[A-Fa-f0-9]{4}) (lv:.*)(?:[0-9]).*(lt: )(?:[0-9].*)\]");
-                Regex regexNodeIP = new Regex(@"\[(?:[A-Fa-f0-9]){4} -");
-                Regex regexNodeParent = new Regex(@" (?:[A-Fa-f0-9]){4} l");
-                Regex regexNodeLvl = new Regex(@" [(?:[A-Fa-f0-9]. ");
-                Regex regexLifetime = new Regex(@"(lt: )[(?:[A-Fa-f0-9].* s\]");
+                Regex regex = new Regex(@"\[.{4}->.{4},(:?[ ,l,e,v]){6}\:(?:[ ,0-9]){1,4},(:?[ ,l,i,n,k,t,y,p,e]){9}\:(?:[ ,0-9]){1,3},(:?[ ,l,i,f,e,t,i,m]){9}\:.*\]", RegexOptions.IgnoreCase);
+                Regex regexNodeIP = new Regex(@"(?:[A-Fa-f0-9]){4}(->)", RegexOptions.IgnoreCase);
+                Regex regexNodeParent = new Regex(@"(>)(?:[A-Ta-t0-9]){4},", RegexOptions.IgnoreCase);
+                Regex regexNodeLvl = new Regex(@"(:?[l,e,v]){5}\:(?:[ ,0-9]){1,4},", RegexOptions.IgnoreCase);
+                Regex regexLifetime = new Regex(@"(:?[l,i,f,e,t,i,m]){8}\:.*s", RegexOptions.IgnoreCase);
+                Regex regexLinkType = new Regex(@"(:?[l,i,n,k,t,y,p,e]){8}\:(?:[ ,0-9]){1,3},",RegexOptions.IgnoreCase);
                 //Regex totalNodes = new Regex(@"\[ (?:[0-9])* (in total Routing link).*\]");
                 Regex regexEnding = new Regex(@"(-){22}");
                 string endingRule = "---------------------";
@@ -804,16 +811,14 @@ namespace PingAll
 
                 if (node.Count == 0)
                 {
-                    node.Add(new NodeInfo("0200", "0", "0"));
+                    node.Add(new NodeInfo("0200", "ROOT", "0"));
                 }
 
                 if (matches.Count == 0)
                 {
                     Stamp();
-                    Console.ForegroundColor = alert;
                     PrLog("RPL Result", false);
                     PrLog("No devices found, execute again!", true);
-                    Console.ForegroundColor = secondary;
                 }
 
                 foreach (Match match in matches)
@@ -822,23 +827,43 @@ namespace PingAll
                     MatchCollection matchParent = regexNodeParent.Matches(match.ToString());
                     MatchCollection matchLt = regexLifetime.Matches(match.ToString());
                     MatchCollection matchLvl = regexNodeLvl.Matches(match.ToString());
-                    char[] toTrim = new char[9];
-                    toTrim[0] = 'l';
-                    toTrim[1] = 't';
-                    toTrim[3] = ':';
-                    toTrim[4] = 's';
-                    toTrim[5] = ']';
-                    toTrim[6] = '-';
-                    toTrim[7] = '[';
-                    toTrim[8] = ' ';
-
+                    MatchCollection matchLinkT = regexLinkType.Matches(match.ToString());
+                    char[] toTrimP = new char[4];
+                    toTrimP[0] = '-';
+                    toTrimP[1] = '>';
+                    toTrimP[2] = ',';
+                    toTrimP[3] = ' ';
+                    char[] toTrimLvl = new char[5];
+                    toTrimLvl[0] = 'l';
+                    toTrimLvl[1] = 'e';
+                    toTrimLvl[2] = 'v';
+                    toTrimLvl[3] = ':';
+                    toTrimLvl[4] = ',';
+                    char[] toTrimLt = new char[15];
+                    toTrimLt[0] = 'l';
+                    toTrimLt[1] = 'i';
+                    toTrimLt[2] = 't';
+                    toTrimLt[3] = 'e';
+                    toTrimLt[4] = 'm';
+                    toTrimLt[5] = 'f';
+                    toTrimLt[6] = 's';
+                    toTrimLt[7] = ':';
+                    toTrimLt[8] = ' ';
+                    toTrimLt[9] = 'y';
+                    toTrimLt[10] = 'p';
+                    toTrimLt[11] = 'n';
+                    toTrimLt[12] = 'k';
+                    toTrimLt[13] = ',';
+                    toTrimLt[14] = ']';
 
                     foreach (Capture capture in match.Captures)
                     {
-                        string _ip = matchIP.First().ToString().Trim(toTrim).ToUpper();
-                        string _parent = matchParent.First().ToString().Trim(toTrim).ToUpper();
-                        string _lifetime = matchLt.First().ToString().Trim(toTrim).ToUpper();
-                        int _lvl = Convert.ToInt32(matchLvl.First().ToString().Trim(toTrim).ToUpper());
+
+                        string _ip = matchIP.First().ToString().ToLower().Trim(toTrimP).ToUpper();
+                        string _parent = matchParent.First().ToString().ToLower().Trim(toTrimP).ToUpper();
+                        string _lifetime = matchLt.First().ToString().ToLower().Trim(toTrimLt).ToUpper();
+                        string _linkType = matchLinkT.First().ToString().ToLower().Trim(toTrimLt);
+                        int _lvl = Convert.ToInt32(matchLvl.First().ToString().ToLower().Trim(toTrimLvl).ToUpper());
 
                         if (node.Exists(x => x.IP == _ip))
                         {
@@ -851,11 +876,12 @@ namespace PingAll
                                 }
                                 node.Find(x => x.IP == _ip).Lifetime = _lifetime;
                                 node.Find(x => x.IP == _ip).Level = _lvl;
+                                node.Find(x => x.IP == _ip).LinkType = _linkType;
                             }
                         }
                         else
                         {
-                            node.Add(new NodeInfo(_ip, _parent, _lifetime, _lvl));
+                            node.Add(new NodeInfo(_ip, _parent, _lifetime, _lvl, _linkType));
                         }
                     }
 
@@ -1532,6 +1558,65 @@ namespace PingAll
                 Stamp();
                 PrLog("RPL Num Result", false);
                 PrLog("Total nodes in network: " + match.ToString().Trim(), true);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+        }
+
+        public static void GetNtpPush()
+        {
+            try
+            {
+                PrLog("Collecting NTP for Push Time Table from last and next 12 hours",false);
+                string endingRule = " seconds";
+                Regex regex = new Regex(@"NTP:.*time .* seconds");
+                Regex regexNTP = new Regex(@"time .* seconds");
+                Regex regexEnding = new Regex(@" seconds");
+                string ntpFromComm = SerialComm("ntp", endingRule, 40000, 3, regexEnding);
+                Match match = regexNTP.Match(ntpFromComm);
+                int w = Convert.ToInt32(Regex.Replace(match.Value, "[^0-9.]", "")); //Get Actual NIC NTP
+                PrLog(" ", false);
+                PrLog("Actual NTP is: " + w + " - Date: " + DateTimeOffset.FromUnixTimeSeconds(w).DateTime,false);
+                int s = w-43200; //Hold in a second variable to increment and compare
+                int n = w + 86400; //Add the seconds in a day to only evaluate results for a day
+                int d = (45 * 60); //Defines the push time accordingly with meter type
+                int e = (50 * 60);
+                int f = (70 * 60);
+                string buffer1 = String.Empty;
+                string buffer2 = String.Empty;
+                string buffer3 = String.Empty;
+                PrLog("",false);
+                PrLog("    Push 45 min            Push 50 min            Push 70 min   ", false);
+                for (int i = w; i <= n; i++) //Increment s in order to verify conditionadings
+                {
+                    s++;
+                    if ((s % d) == 0) //Compare if s is in d push time
+                    {
+                        DateTime result = DateTimeOffset.FromUnixTimeSeconds(s).DateTime; //Convert UNIX to Date Time
+                        buffer1 = result.ToString();
+                    }
+                    if ((s % e) == 0) //Compare if s is in d push time
+                    {
+                        DateTime result = DateTimeOffset.FromUnixTimeSeconds(s).DateTime; //Convert UNIX to Date Time
+                        buffer2 = result.ToString();
+                    }
+                    if ((s % f) == 0) //Compare if s is in d push time
+                    {
+                        DateTime result = DateTimeOffset.FromUnixTimeSeconds(s).DateTime; //Convert UNIX to Date Time
+                        buffer3 = result.ToString();
+                    }
+
+                    if (buffer1 != String.Empty && buffer2 != String.Empty && buffer3 != String.Empty)
+                    {
+                        PrLog(buffer1 + "    " + buffer2 + "   " + buffer3,false);
+                        buffer1 = String.Empty;
+                        buffer2 = String.Empty;
+                        buffer3 = String.Empty;
+                    }
+                }
+                PrLog("",false);
             }
             catch (Exception e)
             {

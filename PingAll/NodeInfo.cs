@@ -12,6 +12,7 @@ namespace PingAll
         public string IP { get; set; }
         public string Parent { get; set; }
         public string Lifetime { get; set; }
+        public string LinkType { get; set; }
         public string PTx { get; set; }
         public string PRx { get; set; }
         public string PLoss { get; set; }
@@ -35,12 +36,13 @@ namespace PingAll
             this.Parent = _parent.ToUpper();
             this.Lifetime = _lifetime;
         }
-        public NodeInfo(string _ip, string _parent, string _lifetime, int lvl)
+        public NodeInfo(string _ip, string _parent, string _lifetime, int lvl, string _linkType)
         {
             this.IP = _ip.ToUpper();
             this.Parent = _parent.ToUpper();
             this.Lifetime = _lifetime;
             this.Level = lvl;
+            this.LinkType = _linkType;
         }
 
         public NodeInfo(string _ip)

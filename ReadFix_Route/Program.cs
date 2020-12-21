@@ -89,67 +89,70 @@ namespace ReadFix_Route
                 Regex _shortValue = new Regex(@"(t = )([a-f0-9])(.*)$");
                 Regex _timestamp = new Regex(@"\[(.*?[0-9]){2}:(.*?[0-9]){2}:(.*?[0-9]){2}\]");
                 string[] hours = new string[24];
-                for(int i = 0; i <= 23; i++)
+                List<List<Route>> Hourly = new List<List<Route>>();
+                for (int i = 0; i <= 23; i++)
                 {
                     hours[i] = i.ToString("D2");
+                    Hourly.Add(new List<Route>());
                 }
-                List<Route> route = new List<Route>();
+                string[] file;
                 using (StreamReader streamReader = new StreamReader(path))
                 {
-                    string s = "";
-                    double lines = File.ReadAllLines(path).Length;
-                    double readlines = 0;
-                    while( (s = streamReader.ReadLine()) != null)
+                    file = File.ReadAllLines(path);
+                    streamReader.Close();
+                }
+
+                double lines = file.Length;
+                double readlines = 0;
+                foreach (string result in file)
+                {
+                    MatchCollection matchfile = _rgxFixRoute.Matches(result);
+                    foreach (Match matchresult in matchfile)
                     {
-                        MatchCollection matches = _rgxFixRoute.Matches(s);
-                        foreach( Match match in matches)
+                        foreach (string hour in hours)
                         {
-                            foreach(string hour in hours)
+                            string h = _timestamp.Match(result).Value.TrimStart('[').TrimEnd(']').Substring(0, 2);
+                            if (h == hour)
                             {
-                                string h = _timestamp.Match(s).Value.TrimStart('[').TrimEnd(']').Substring(0, 2);
-                                if (h == hour)
+                                List<Route> route = Hourly[Convert.ToInt32(h)];
+                                string _index = string.Empty;
+                                string _short = string.Empty;
+                                Match matchIndex = _indexValue.Match(matchresult.Value);
+                                Match matchValue = _shortValue.Match(matchresult.Value);
+                                _index = matchIndex.Value.ToString().TrimStart('=').TrimEnd(',').Trim().TrimEnd(',');
+                                _short = matchValue.Value[4..].PadLeft(3, '0');
+                                if (_index == "")
                                 {
-                                    string _index = string.Empty;
-                                    string _short = string.Empty;
-                                    Match matchIndex = _indexValue.Match(match.Value);
-                                    Match matchValue = _shortValue.Match(match.Value);
-                                    _index = matchIndex.Value.ToString().TrimStart('=').TrimEnd(',').Trim().TrimEnd(',');
-                                    _short = matchValue.Value[4..];
-                                    if(_index == "")
-                                    {
-                                        Console.WriteLine(".");
-                                    }
-                                    if (route.Count == 0)
-                                    {
-                                        route.Add(new Route(_index, _short, hour));
-                                    }
-                                    else if (route.Exists(x => x.Short == _short) == false)
-                                    {
-                                        route.Add(new Route(_index, _short, hour));
-                                    }
-                                    else if (route.Exists(x => x.Short == _short) == true)
-                                    {
-                                        route.Find(x => x.Short == _short).ChangeCounter++;
-                                    }
+                                    Console.WriteLine(".");
+                                }
+                                if (route.Count == 0)
+                                {
+                                    route.Add(new Route(_index, _short, hour));
+                                }
+                                else if (route.Exists(x => x.Short == _short) == false)
+                                {
+                                    route.Add(new Route(_index, _short, hour));
+                                }
+                                else if (route.Exists(x => x.Short == _short) == true)
+                                {
+                                    route.Find(x => x.Short == _short).ChangeCounter++;
                                 }
                             }
                         }
-                        readlines++;
-                        double v = (readlines / lines);
-                        percent = v.ToString("P");
-                        spinner.Update(percent);
                     }
-
-                    streamReader.Close();
-                    spinner.Stop();
+                    readlines++;
+                    double v = (readlines / lines);
+                    percent = v.ToString("P");
+                    spinner.Update(percent);
                 }
-
+                spinner.Stop();
                 Console.WriteLine("Writing Results file - FixRoute_Result.txt");
                 using (StreamWriter streamWriter = new StreamWriter(@".\FixRoute_Result.txt"))
                 {
                     streamWriter.WriteLine("node,count,hour");
                     foreach (string hour in hours)
                     {
+                        List<Route> route = Hourly[Convert.ToInt32(hour)];
                         List<Route> rf = route.FindAll(x => x.Get_hour() == hour);
                         int totalFix = 0;
                         foreach (Route fix in rf)

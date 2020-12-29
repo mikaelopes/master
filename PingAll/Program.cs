@@ -1570,51 +1570,49 @@ namespace PingAll
             try
             {
                 PrLog("Collecting NTP for Push Time Table from last and next 12 hours",false);
-                string endingRule = " seconds";
-                Regex regex = new Regex(@"NTP:.*time .* seconds");
-                Regex regexNTP = new Regex(@"time .* seconds");
-                Regex regexEnding = new Regex(@" seconds");
-                string ntpFromComm = SerialComm("ntp", endingRule, 40000, 3, regexEnding);
-                Match match = regexNTP.Match(ntpFromComm);
-                int w = Convert.ToInt32(Regex.Replace(match.Value, "[^0-9.]", "")); //Get Actual NIC NTP
+                //string endingRule = " seconds";
+                //Regex regex = new Regex(@"NTP:.*time .* seconds");
+                //Regex regexNTP = new Regex(@"time .* seconds");
+                //Regex regexEnding = new Regex(@" seconds");
+                //string ntpFromComm = SerialComm("ntp", endingRule, 40000, 3, regexEnding);
+                //Match match = regexNTP.Match(ntpFromComm);
+                //int w = Convert.ToInt32(Regex.Replace(match.Value, "[^0-9.]", "")); //Get Actual NIC NTP
+                int w = System.Convert.ToInt32(System.DateTimeOffset.Now.ToUnixTimeSeconds());
                 PrLog(" ", false);
                 PrLog("Actual NTP is: " + w + " - Date: " + DateTimeOffset.FromUnixTimeSeconds(w).DateTime,false);
-                int s = w-43200; //Hold in a second variable to increment and compare
-                int n = w + 86400; //Add the seconds in a day to only evaluate results for a day
-                int d = (45 * 60); //Defines the push time accordingly with meter type
-                int e = (50 * 60);
-                int f = (70 * 60);
-                string buffer1 = String.Empty;
-                string buffer2 = String.Empty;
-                string buffer3 = String.Empty;
+                int[] d = new int[] { 45, 50, 70 }; //Defines the push time accordingly with meter type
+                List<String> m45 = new List<String>();
+                List<String> m50 = new List<String>();
+                List<String> m70 = new List<String>();
                 PrLog("",false);
-                PrLog("    Push 45 min            Push 50 min            Push 70 min   ", false);
-                for (int i = w; i <= n; i++) //Increment s in order to verify conditionadings
+                PrLog("  Push 45 min          Push 50 min          Push 70 min", false);
+                for (int i = w-43200; i <= w + 86400; i++) //Increment s in order to verify conditionadings
                 {
-                    s++;
-                    if ((s % d) == 0) //Compare if s is in d push time
+                    foreach (int time in d)
                     {
-                        DateTime result = DateTimeOffset.FromUnixTimeSeconds(s).DateTime; //Convert UNIX to Date Time
-                        buffer1 = result.ToString();
+                        if ((i % (time * 60)) == 0) //Compare if s is in d push time
+                        {
+                            if (time == 45)
+                            {
+                                DateTime result = DateTimeOffset.FromUnixTimeSeconds(i).DateTime; //Convert UNIX to Date Time
+                                m45.Add(result.ToString());
+                            }
+                            if (time == 50)
+                            {
+                                DateTime result = DateTimeOffset.FromUnixTimeSeconds(i).DateTime; //Convert UNIX to Date Time
+                                m50.Add(result.ToString());
+                            }
+                            if (time == 70)
+                            {
+                                DateTime result = DateTimeOffset.FromUnixTimeSeconds(i).DateTime; //Convert UNIX to Date Time
+                                m70.Add(result.ToString());
+                            }
+                        }
                     }
-                    if ((s % e) == 0) //Compare if s is in d push time
-                    {
-                        DateTime result = DateTimeOffset.FromUnixTimeSeconds(s).DateTime; //Convert UNIX to Date Time
-                        buffer2 = result.ToString();
-                    }
-                    if ((s % f) == 0) //Compare if s is in d push time
-                    {
-                        DateTime result = DateTimeOffset.FromUnixTimeSeconds(s).DateTime; //Convert UNIX to Date Time
-                        buffer3 = result.ToString();
-                    }
-
-                    if (buffer1 != String.Empty && buffer2 != String.Empty && buffer3 != String.Empty)
-                    {
-                        PrLog(buffer1 + "    " + buffer2 + "   " + buffer3,false);
-                        buffer1 = String.Empty;
-                        buffer2 = String.Empty;
-                        buffer3 = String.Empty;
-                    }
+                }
+                for (int i = 0; i <= m70.Count - 1; i++) //Increment s in order to verify condition
+                {
+                    PrLog(m45[i] + "\t" + m50[i] + "\t" + m70[i],false);
                 }
                 PrLog("",false);
             }

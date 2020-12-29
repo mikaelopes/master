@@ -83,14 +83,15 @@ namespace PingAll
         {
             string value = ":";
             string value2 = ",";
+            string t = "+PING6:3,3,0.0 %,293,84,84,86";
             string reachable;
             this.PTx = capture.Value.Substring(capture.Value.IndexOfNth(value, 0) + 1, (capture.Value.IndexOfNth(value2, 0) - capture.Value.IndexOfNth(value, 0) - 1));
             this.PRx = capture.Value.Substring(capture.Value.IndexOfNth(value2, 0) + 1, (capture.Value.IndexOfNth(value2, 1) - capture.Value.IndexOfNth(value2, 0) - 1));
             this.PLoss = capture.Value.Substring(capture.Value.IndexOfNth(value2, 1) + 1, (capture.Value.IndexOfNth(value2, 2) - capture.Value.IndexOfNth(value2, 1) - 2));
             this.PTime = capture.Value.Substring(capture.Value.IndexOfNth(value2, 2) + 1, (capture.Value.IndexOfNth(value2, 3) - capture.Value.IndexOfNth(value2, 2) - 1));
             this.RTTmin = capture.Value.Substring(capture.Value.IndexOfNth(value2, 3) + 1, (capture.Value.IndexOfNth(value2, 4) - capture.Value.IndexOfNth(value2, 3) - 1));
-            this.RTTavg = capture.Value.Substring(capture.Value.IndexOfNth(value2, 4) + 1, (capture.Value.IndexOfNth(value2, 5) - capture.Value.IndexOfNth(value2, 4) - 1));
-            this.RTTmax = capture.Value.Substring(capture.Value.IndexOfNth(value2, 5) + 1, (capture.Value.Length - capture.Value.IndexOfNth(value2, 5) - 2));
+            this.RTTavg = t.Substring(t.IndexOfNth(value2, 4) + 1, (t.IndexOfNth(value2, 5) - t.IndexOfNth(value2, 4) - 1));
+            this.RTTmax = capture.Value.Substring(capture.Value.IndexOfNth(value2, 5) + 1, (capture.Value.Length - capture.Value.IndexOfNth(value2, 5) - 1));
             if (this.PLoss == "100.0")
             {
                 this.IsReachable = false;
